@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.9-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-24 12:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../sources/api-kivy.uix.anchorlayout.rst:3
+# 2519ce65632d4fac9995536257bcf56a
+msgid "Anchor Layout"
+msgstr ""
+
+#: ../../../kivy/uix/anchorlayout.py:docstring of kivy.uix.anchorlayout:2
+# 28939a684f08443faf68ba705ff678a7
+msgid ":class:`AnchorLayout` aligns children to a border (top, bottom, left, right) or center."
+msgstr ""
+
+#: ../../../kivy/uix/anchorlayout.py:docstring of kivy.uix.anchorlayout:5
+# 994422cba0f44808a958ebfa1770f8b1
+msgid "To draw a button in the lower-right corner ::"
+msgstr ""
+
+#: ../../<autodoc>:1
+# 2990136ae4b447219221b66ae21f6b99
+msgid "Bases: :class:`kivy.uix.layout.Layout`"
+msgstr ""
+
+#: ../../../kivy/uix/anchorlayout.py:docstring of kivy.uix.anchorlayout.AnchorLayout:1
+# 94b6c155c29f4c8aa1b401730f15e87b
+msgid "Anchor layout class. See module documentation for more information."
+msgstr ""
+
+#: ../../../kivy/uix/anchorlayout.py:docstring of kivy.uix.anchorlayout.AnchorLayout.anchor_x:1
+# d6305579328240b2a80d074978f18194
+msgid "Horizontal anchor."
+msgstr ""
+
+#: ../../../kivy/uix/anchorlayout.py:docstring of kivy.uix.anchorlayout.AnchorLayout.anchor_x:3
+# edd64f14a2374fabbf6e5825e37550a6
+msgid ":data:`anchor_x` is an :class:`~kivy.properties.OptionProperty`, default to 'center'. Can take a value of 'left', 'center' or 'right'"
+msgstr ""
+
+#: ../../../kivy/uix/anchorlayout.py:docstring of kivy.uix.anchorlayout.AnchorLayout.anchor_y:1
+# 4951f47ad95d4e03883577d621e19a85
+msgid "Vertical anchor."
+msgstr ""
+
+#: ../../../kivy/uix/anchorlayout.py:docstring of kivy.uix.anchorlayout.AnchorLayout.anchor_y:3
+# 6f9279d58246495792602a5899a42b54
+msgid ":data:`anchor_y` is an :class:`~kivy.properties.OptionProperty`, default to 'center'. Can take a value of 'top', 'center' or 'bottom'"
+msgstr ""
+
+#: ../../../kivy/uix/anchorlayout.py:docstring of kivy.uix.anchorlayout.AnchorLayout.padding:1
+# b75344412d104e558ede81b87defff9a
+msgid "Padding between widget box and children, in pixels."
+msgstr ""
+
+#: ../../../kivy/uix/anchorlayout.py:docstring of kivy.uix.anchorlayout.AnchorLayout.padding:3
+# 92ec60ab7c7043e2b6066c2bb25efa6d
+msgid ":data:`padding` is a :class:`~kivy.properties.NumericProperty`, default to 0."
+msgstr ""
+

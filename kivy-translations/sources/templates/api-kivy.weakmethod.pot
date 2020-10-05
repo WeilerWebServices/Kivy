@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.9-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-24 12:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../sources/api-kivy.weakmethod.rst:3
+# a4efdf36cc9d44b4b95ce2c1d4c84744
+msgid "Weak Method"
+msgstr ""
+
+#: ../../../kivy/weakmethod.py:docstring of kivy.weakmethod:2
+# cadfabc8b9324899b6166fd585676057
+msgid ":class:`WeakMethod` is used in Clock class to prevent the clock from taking memory if the object is deleted. Check examples/core/clock_method.py for more information."
+msgstr ""
+
+#: ../../../kivy/weakmethod.py:docstring of kivy.weakmethod:6
+# 9ed9c7f9f61d4b349d98b9a59f0cf1e8
+msgid "This WeakMethod class is taken from the recipe http://code.activestate.com/recipes/81253/, based on the nicodemus version. (thanks to him !)"
+msgstr ""
+
+#: ../../<autodoc>:1
+# 0a90056260ba4386b867d0d795657cdd
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: ../../../kivy/weakmethod.py:docstring of kivy.weakmethod.WeakMethod:1
+# 44fef1828b654ff4a7845d55b3b0db7f
+msgid "Implementation of weakref for function and bounded method."
+msgstr ""
+
+#: ../../../kivy/weakmethod.py:docstring of kivy.weakmethod.WeakMethod.is_dead:1
+# 56919d148a364720b5136bdc67c22eae
+msgid "Returns True if the referenced callable was a bound method and the instance no longer exists. Otherwise, return False."
+msgstr ""
+

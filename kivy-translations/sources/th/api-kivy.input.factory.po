@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 17:12\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# e279f9f46c3848f481c5f4d812b8c8fe
+#: ../../sources/api-kivy.input.factory.rst:3
+msgid "Motion Event Factory"
+msgstr ""
+
+# 7c1c4e95090f4aa892e96bec5992d1a2
+#: ../../../kivy/input/factory.py:docstring of kivy.input.factory:2
+msgid "Factory of :class:`~kivy.input.motionevent.MotionEvent` providers."
+msgstr ""
+
+# 02ea9927a32f49f7b023bf21de2e194f
+#: ../../../kivy/input/factory.py:docstring of kivy.input.factory.MotionEventFactory:1
+msgid "MotionEvent factory is a class who register all availables input factories.  If you create a new input factory, don't forget to register it ::"
+msgstr ""
+
+# b54ae28fbf97418594e349cf6d9a7bc9
+#: ../../../kivy/input/factory.py:docstring of kivy.input.factory.MotionEventFactory.get:1
+msgid "Get a provider class from provider id"
+msgstr ""
+
+# 6db4a08f8e3749fdb554ac9a66770cc5
+#: ../../../kivy/input/factory.py:docstring of kivy.input.factory.MotionEventFactory.list:1
+msgid "Get a list of all providers availables"
+msgstr ""
+
+# 6b99af505fdf4ced880f885a58ff9a76
+#: ../../../kivy/input/factory.py:docstring of kivy.input.factory.MotionEventFactory.register:1
+msgid "Register a input provider in the database"
+msgstr ""

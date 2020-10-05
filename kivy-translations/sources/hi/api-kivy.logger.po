@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 16:54\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# 8768d2a93e4c495989597bbbcf242340
+#: ../../sources/api-kivy.logger.rst:3
+msgid "Logger object"
+msgstr ""
+
+# 9f5ee82ce23b4312984f97a5fb2dede2
+#: ../../../kivy/logger.py:docstring of kivy.logger:2
+msgid "Differents level are available : trace, debug, info, warning, error, critical."
+msgstr ""
+
+# 328b0856a5104094b2e028dd0ee2c929
+#: ../../../kivy/logger.py:docstring of kivy.logger:4
+msgid "Examples of usage::"
+msgstr ""
+
+# 125b80e93b714c23b017201be9b7a33a
+#: ../../../kivy/logger.py:docstring of kivy.logger:16
+msgid "The message passed to the logger is splited to the first :. The left part is used as a title, and the right part is used as a message. This way, you can \"categorize\" your message easily::"
+msgstr ""
+
+# a68be34623164aed90fb37d556927409
+#: ../../../kivy/logger.py:docstring of kivy.logger:27
+msgid "Logger configuration"
+msgstr ""
+
+# dcaad506db134b7ea7fd090f61fae7c3
+#: ../../../kivy/logger.py:docstring of kivy.logger:29
+msgid "Logger can be controled in the Kivy configuration file::"
+msgstr ""
+
+# b93bbb171daf4c689cfd5c4766ebd3f9
+#: ../../../kivy/logger.py:docstring of kivy.logger:37
+msgid "More information about the allowed values is described in :mod:`kivy.config` module."
+msgstr ""
+
+# 16cce8ca055f49d2a473d0773b1d4537
+#: ../../../kivy/logger.py:docstring of kivy.logger:41
+msgid "Logger history"
+msgstr ""
+
+# 5a4d9531e0dd4cb78564334512ecb419
+#: ../../../kivy/logger.py:docstring of kivy.logger:43
+msgid "Even if the logger is not enabled, you can still have the history of latest 100 messages::"
+msgstr ""
+
+# 03da0416527045d2a97468d7c07ef352
+#: ../../../kivy/logger.py:docstring of kivy.logger.Logger:1
+msgid "Kivy default logger instance"
+msgstr ""
+
+# c0a15373ca6d493b896f07f576ae2e00
+#: ../../<autodoc>:1
+msgid "Bases: :class:`logging.Handler`"
+msgstr ""
+
+# 00aba2054bbe46c2aae8f3574aac520d
+#: ../../../kivy/logger.py:docstring of kivy.logger.LoggerHistory:1
+msgid "Kivy history handler"
+msgstr ""

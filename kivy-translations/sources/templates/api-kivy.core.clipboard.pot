@@ -1,0 +1,28 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.9-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-24 12:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../sources/api-kivy.core.clipboard.rst:3
+# 0ccf10c80cd04665b5b8deb93fbbbbcb
+msgid "Clipboard"
+msgstr ""
+
+#: ../../../kivy/core/clipboard/__init__.py:docstring of kivy.core.clipboard:2
+# 99bf53b6765348a186eab21f3e17b201
+msgid "Core class for accessing to the Clipboard. If we are not able to access to the system clipboard, a fake one will be used."
+msgstr ""
+

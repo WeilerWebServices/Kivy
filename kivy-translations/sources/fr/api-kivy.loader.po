@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 16:54\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# fcc7915aa1c14327b613e967c8c836eb
+#: ../../sources/api-kivy.loader.rst:3
+msgid "Asynchronous data loader"
+msgstr ""
+
+# f544a4af187a4a338fe53a3e20e7905b
+#: ../../../kivy/loader.py:docstring of kivy.loader:2
+msgid "This is the Asynchronous Loader. You can use it to load an image and use it, even if data are not yet available. You must specify a default loading image for using a such loader::"
+msgstr ""
+
+# 6bd1d0fa336b4d4a9ed18ded1462b392
+#: ../../../kivy/loader.py:docstring of kivy.loader:9
+msgid "You can also load image from url::"
+msgstr ""
+
+# dd7c4f2d5b234f72841633bcb85f5323
+#: ../../../kivy/loader.py:docstring of kivy.loader:13
+msgid "If you want to change the default loading image, you can do::"
+msgstr ""
+
+# 2a4fe0b1966c4fcd802244876c1c75f2
+#: ../../<autodoc>:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+# ec8dfdd800314cab9c28d08cd4815d34
+#: ../../../kivy/loader.py:docstring of kivy.loader.LoaderBase:1
+msgid "Common base for Loader and specific implementation. By default, Loader will be the best available loader implementation."
+msgstr ""
+
+# f97d3a93aca7473e852b1dd894eb0b88
+#: ../../../kivy/loader.py:docstring of kivy.loader.LoaderBase:4
+msgid "The _update() function is called every 1 / 25.s or each frame if we have less than 25 FPS."
+msgstr ""
+
+# 56e1e02d26b04c7aa976d83091eeddfc
+#: ../../../kivy/loader.py:docstring of kivy.loader.LoaderBase.error_image:1
+msgid "Image used for error (readonly)"
+msgstr ""
+
+# ac4cfc6430b64336bc448a2286e8521f
+#: ../../../kivy/loader.py:docstring of kivy.loader.LoaderBase.image:1
+msgid "Load a image using loader. A Proxy image is returned with a loading image ::"
+msgstr ""
+
+# 9216babafcc047de870170893825f47f
+#: ../../../kivy/loader.py:docstring of kivy.loader.LoaderBase.image:4
+msgid "img = Loader.image(filename) # img will be a ProxyImage. # You'll use it the same as an Image class. # Later, when the image is really loaded, # the loader will change the img.image property # to the new loaded image"
+msgstr ""
+
+# 26d628f569a0452a899f5ba1a4aae346
+#: ../../../kivy/loader.py:docstring of kivy.loader.LoaderBase.loading_image:1
+msgid "Image used for loading (readonly)"
+msgstr ""
+
+# 99d378518d7b489295319d11305257c5
+#: ../../../kivy/loader.py:docstring of kivy.loader.LoaderBase.run:1
+msgid "Main loop for the loader."
+msgstr ""
+
+# 1fbe7652b6204335bd891d7e2e1889f3
+#: ../../../kivy/loader.py:docstring of kivy.loader.LoaderBase.start:1
+msgid "Start the loader thread/process"
+msgstr ""
+
+# 2fba8a2a9b8a42aeaa724082429b94b4
+#: ../../../kivy/loader.py:docstring of kivy.loader.LoaderBase.stop:1
+msgid "Stop the loader thread/process"
+msgstr ""
+
+# 7288e8c56ba644daa5490b3ab8a11b06
+#: ../../<autodoc>:1
+msgid "Bases: :class:`kivy.core.image.Image`"
+msgstr ""
+
+# 47f3b42b225748208e3ed48095cfe298
+#: ../../../kivy/loader.py:docstring of kivy.loader.ProxyImage:1
+msgid "Image returned by the Loader.image() function."
+msgstr ""
+
+# 644605f414844937baec4207c202f6de
+#: ../../../kivy/loader.py:docstring of kivy.loader.ProxyImage:5
+msgid "It can be True if the image is already cached"
+msgstr ""
+
+# 78fc07dd0f244d7e9a1e7e6ae1c125ee
+#: ../../../kivy/loader.py:docstring of kivy.loader.ProxyImage:9
+msgid "Fired when the image is loaded and changed"
+msgstr ""

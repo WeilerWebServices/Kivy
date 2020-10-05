@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.9-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-24 12:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../sources/api-kivy.input.postproc.doubletap.rst:3
+# d4572e28644a4df48c7d2fb1faf2b990
+msgid "Double Tap"
+msgstr ""
+
+#: ../../../kivy/input/postproc/doubletap.py:docstring of kivy.input.postproc.doubletap:2
+# 7bc8f00d8a854c21a99b4a5ad9e9410a
+msgid "Search touch for a double tap"
+msgstr ""
+
+#: ../../<autodoc>:1
+# 287ec7f7968b4c8897324ee8abe625f4
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: ../../../kivy/input/postproc/doubletap.py:docstring of kivy.input.postproc.doubletap.InputPostprocDoubleTap:1
+# b82283be96434578a8a0825a826f5cf6
+msgid "InputPostProcDoubleTap is a post-processor to check if a touch is a double tap or not. Double tap can be configured in the Kivy config file ::"
+msgstr ""
+
+#: ../../../kivy/input/postproc/doubletap.py:docstring of kivy.input.postproc.doubletap.InputPostprocDoubleTap:9
+# 14f5fb631c08423cb461d9ccf1599012
+msgid "Distance parameter is in 0-1000, and time is in millisecond."
+msgstr ""
+
+#: ../../../kivy/input/postproc/doubletap.py:docstring of kivy.input.postproc.doubletap.InputPostprocDoubleTap.find_double_tap:1
+# 077b97d2fff8481b8a375143e0529175
+msgid "Find a double tap touch within self.touches. The touch must be not a previous double tap, and the distance must be ok"
+msgstr ""
+

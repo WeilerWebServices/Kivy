@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.9-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-24 12:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../sources/api-kivy.event.rst:3
+# 481835efc7b84101b2bf5022865ca0be
+msgid "Event dispatcher"
+msgstr ""
+
+#: ../../docstring of kivy.event:2
+# 0e82546c3ebe428fb9af1a5c3d5fccd0
+msgid "All objects that produce events in Kivy implement :class:`EventDispatcher`, providing a consistent interface for registering and manipulating event handlers."
+msgstr ""
+
+#: ../../<autodoc>:1
+# 5ce8cb89039842eb8fbb92165b828af1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: ../../docstring of kivy.event.EventDispatcher:1
+# 521f8c6a63ed435a87b8b74c41467bd4
+msgid "Generic event dispatcher interface"
+msgstr ""
+
+#: ../../docstring of kivy.event.EventDispatcher:3
+# bfb81547ac7948a9a2b6cff43007e5a4
+msgid "See the module docstring for usage."
+msgstr ""
+
+#: ../../docstring of kivy.event.EventDispatcher.bind:1
+# 1e874ac432ca4d128e98c3fdaa9f3314
+msgid "Bind an event type or a property to a callback"
+msgstr ""
+
+#: ../../docstring of kivy.event.EventDispatcher.bind:3
+# 26493a99fc2441f2a9bbf654eb8b16ed
+msgid "Usage::"
+msgstr ""
+
+#: ../../docstring of kivy.event.EventDispatcher.dispatch:1
+# eb3a6fb3dd4248d2a5d11b7ff87dd13d
+msgid "Dispatch an event across all the handler added in bind(). As soon as a handler return True, the dispatching stop"
+msgstr ""
+
+#: ../../docstring of kivy.event.EventDispatcher.is_event_type:1
+# 50e6cbe4198945ad9e141d7ff7d1747b
+msgid "Return True if the event_type is already registered."
+msgstr ""
+
+#: ../../docstring of kivy.event.EventDispatcher.register_event_type:1
+# d7f54f786e194a3e90885af24766aa21
+msgid "Register an event type with the dispatcher."
+msgstr ""
+
+#: ../../docstring of kivy.event.EventDispatcher.register_event_type:3
+# 178bb1d9a5bc44f09aa417c8430abc18
+msgid "Registering event types allows the dispatcher to validate event handler names as they are attached, and to search attached objects for suitable handlers. Each event type declaration must :"
+msgstr ""
+
+#: ../../docstring of kivy.event.EventDispatcher.register_event_type:7
+# 829a5be4c7da445291d8756f3b400209
+msgid "start with the prefix `on_`"
+msgstr ""
+
+#: ../../docstring of kivy.event.EventDispatcher.register_event_type:8
+# c82c60932e4449a198fc7fe3a00187ea
+msgid "have a default handler in the class"
+msgstr ""
+
+#: ../../docstring of kivy.event.EventDispatcher.register_event_type:10
+# 873c16621e894692a0e5d14a77fec752
+msgid "Example of creating custom event::"
+msgstr ""
+
+#: ../../docstring of kivy.event.EventDispatcher.unbind:1
+# 53ab2d9dd0bf41a5b61bb68f4e7c231f
+msgid "Unbind properties from callback functions."
+msgstr ""
+
+#: ../../docstring of kivy.event.EventDispatcher.unbind:3
+# 6548859919d948798736a74a02a88574
+msgid "Same usage as bind()."
+msgstr ""
+
+#: ../../docstring of kivy.event.EventDispatcher.unregister_event_types:1
+# e10b95e4a88d44f7a012b62feae9adc5
+msgid "Unregister an event type in the dispatcher"
+msgstr ""
+

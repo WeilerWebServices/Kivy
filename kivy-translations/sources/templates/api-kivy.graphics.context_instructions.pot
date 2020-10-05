@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.9-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-24 12:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../sources/api-kivy.graphics.context_instructions.rst:3
+# 15f25ceb42ab4ac5b5fe481019512096
+msgid "Context instructions"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions:2
+# f5aeaf59a866406d8d76ab46a7257baf
+msgid "The context instructions represent non graphics elements like:"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions:4
+# 4fb3e4e0f766437cb8b86771c962ed86
+msgid "Matrix manipulation (PushMatrix, PopMatrix, Rotate, Translate, Scale, MatrixInstruction)"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions:6
+# b413c52615ad46ec8fdc416a5e7186ae
+msgid "Color manipulation (Color)"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions:7
+# d93f1cf5c7a9407aa949c03a34054917
+msgid "Texture binding (BindTexture)"
+msgstr ""
+
+#: ../../<autodoc>:1
+#: ../../<autodoc>:1
+#: ../../<autodoc>:1
+#: ../../<autodoc>:1
+#: ../../<autodoc>:1
+# dae054a021e24f7db778ade091d6a82d
+# 836be7a44f5f489e8947a5f47a580943
+# 7a4ae56ac4bf4e6b8cf17a0163b59e0c
+# c7dae465c0f14886b7e46df3c40d55e9
+# 79ce4d920a934ea3b355a407035d4143
+msgid "Bases: :class:`kivy.graphics.instructions.ContextInstruction`"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Color:1
+# 9fa7846e9171472ca3524df1110e6b1b
+msgid "Instruction to set the color state for any vertices being drawn after it. All the values passed are between 0 and 1, not 0 and 255."
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Color:4
+# f5610e34976247738207f9c76e4aecee
+msgid "In Python, you can do::"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Color:20
+# 27b2abf6d3064cf7843a87ce6ede6787
+msgid "In kv lang::"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Color.a:1
+# f9ce75ce34174d8ebd6dde019307f240
+msgid "Alpha component, between 0-1"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Color.b:1
+# 1f77ef5a6e274f528b26ac6acbbe0884
+msgid "Blue component, between 0-1"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Color.g:1
+# fc49fab9533645eeb8f83812d7eb39ce
+msgid "Green component, between 0-1"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Color.h:1
+# 4e4a225b6f0d4c1bbf1c747efb560b88
+msgid "Hue component, between 0-1"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Color.hsv:1
+# ae5cc52b26c948bcb6cd904b0b32b81a
+msgid "HSV color, list of 3 values in 0-1 range, alpha will be 1."
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Color.r:1
+# f0bbd1d3fbd141cdb4d0e33b0388fbf4
+msgid "Red component, between 0-1"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Color.rgb:1
+# cce9c206dda14874ab3b2e2168f01781
+msgid "RGB color, list of 3 values in 0-1 range, alpha will be 1."
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Color.rgba:1
+# 94b64a18362d4130849a2038ca9bf750
+msgid "RGBA color, list of 4 values in 0-1 range"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Color.s:1
+# d1f631d2c7944957b51af34106b8c7d0
+msgid "Saturation component, between 0-1"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Color.v:1
+# 7883335a6e444a2ba0759889c21525ea
+msgid "Value component, between 0-1"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.BindTexture:1
+# 769731e01e5442e29a8fc4ebd3efec70
+msgid "BindTexture Graphic instruction. The BindTexture Instruction will bind a texture and enable GL_TEXTURE_2D for subsequent drawing."
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.BindTexture:7
+# 71566c6308744991bde569e905dc2561
+msgid "specifies the texture to bind to the given index"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.BindTexture.source:1
+# d6c0ae15333c49af9ea2204441b444d9
+msgid "Set/get the source (filename) to load for texture."
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.PushMatrix:1
+# 9401badd753044168133c69ae0c2c816
+msgid "PushMatrix on context's matrix stack"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.PopMatrix:1
+# ed911982b09d48aca2523440a50c8168
+msgid "Pop Matrix from context's matrix stack onto model view"
+msgstr ""
+
+#: ../../<autodoc>:1
+#: ../../<autodoc>:1
+#: ../../<autodoc>:1
+# 98b094078f0640798467bd49745a5bc3
+# 7fc08946e4a34fe283827d7bf387abb2
+# 1d1773f6f5134199a9d9d313353cdda5
+msgid "Bases: :class:`kivy.graphics.context_instructions.Transform`"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Rotate:1
+# a67ccad5bc124d6a94d58919a5adfddb
+msgid "Rotate the coordinate space by applying a rotation transformation on the modelview matrix. You can set the properties of the instructions afterwards with e.g.::"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Rotate.angle:1
+# 4b271b4d755c4a848be46ad632111847
+msgid "Property for getting/settings the angle of the rotation"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Rotate.axis:1
+# 8a0caab8549444d1b59d9abab85a7692
+msgid "Property for getting/settings the axis of the rotation"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Rotate.axis:3
+# 9b97ae35198f4df2a9590420f74a9eea
+msgid "The format of the axis is (x, y, z)."
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Scale:1
+# dfc2c9a987b6415e84e949c53774575b
+msgid "Instruction to perform a uniform scale transformation"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Scale.scale:1
+# 133402df44d8454eaf9a0df3fc89db14
+msgid "Property for getting/setting the scale."
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Scale.scale:3
+# 2e4b2708b54b4ab99ef0991e7fd3daf3
+msgid "The same scale value is applied on all axis."
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Translate:1
+# cee080594ede4196b673dacf4e9c76ea
+msgid "Instruction to create a translation of the model view coordinate space"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Translate.x:1
+# 65aa9675d117427bb78ce1d29fb86d69
+msgid "Property for getting/setting the translation on X axis"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Translate.xy:1
+# 9e44ef254f3a4f338a34dd0d425c4434
+msgid "2 tuple with translation vector in 2D for x and y axis"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Translate.xyz:1
+# dcc7e75cf2114518ac497ae0a6cfcaa2
+msgid "3 tuple translation vector in 3D in x, y, and z axis"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Translate.y:1
+# 82333b84e62342a7a9a4e56c43c11d2a
+msgid "Property for getting/setting the translation on Y axis"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.Translate.z:1
+# 76a52a464ec14170ba5657a795d364be
+msgid "Property for getting/setting the translation on Z axis"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.MatrixInstruction:1
+# 87840089e6c44f5daf9cdae3561deb5c
+msgid "Base class for Matrix Instruction on canvas"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.context_instructions.MatrixInstruction.matrix:1
+# 240e98a9db9d4a49b918891b4b090c6f
+msgid "Matrix property. Numpy matrix from transformation module setting the matrix using this porperty when a change is made is important, becasue it will notify the context about the update"
+msgstr ""
+

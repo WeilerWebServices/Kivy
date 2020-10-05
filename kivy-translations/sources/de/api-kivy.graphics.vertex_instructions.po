@@ -1,0 +1,261 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 16:54\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# 90d9bf5c8ecf4534ac045bc0b2c1bcf7
+#: ../../sources/api-kivy.graphics.vertex_instructions.rst:3
+msgid "Vertex Instructions"
+msgstr ""
+
+# 3d3cada7f4dd4fbaa5c88ff8d90e96cb
+#: ../../docstring of kivy.graphics.vertex_instructions:2
+msgid "This module include all the classes for drawing simple vertex object."
+msgstr ""
+
+# e242e1e00d9a43d3b5a62cff33f78b75
+# 512e06ac04d6408a86ae41eff16cb5f9
+# b6b52032c98f432bba64a03738f576be
+# c70ab081f2c7441c836f6ced38edbf82
+# 8eb53e328f99465e93bf19c82679eb16
+# 4f7255fc8deb4143a24af378b01aa135
+#: ../../<autodoc>:1
+#: ../../<autodoc>:1
+#: ../../<autodoc>:1
+#: ../../<autodoc>:1
+#: ../../<autodoc>:1
+#: ../../<autodoc>:1
+msgid "Bases: :class:`kivy.graphics.instructions.VertexInstruction`"
+msgstr ""
+
+# 913be795ddd741628f7348ab1ddc263d
+#: ../../docstring of kivy.graphics.vertex_instructions.Triangle:1
+msgid "A 2d triangle."
+msgstr ""
+
+# 5af1906f07e34e819b91c5f6e77f6d76
+#: ../../docstring of kivy.graphics.vertex_instructions.Triangle:5
+msgid "List of point in the format (x1, y1, x2, y2, x3, y3)"
+msgstr ""
+
+# bd3f03db0a104b40808ac8352f7f5e72
+# 7db4a303cd364de2b893016ce46eed4f
+# c6586af606164ba483f8e074b7372df4
+# 877c5cf37e264e70971101433cc30e93
+#: ../../docstring of kivy.graphics.vertex_instructions.Triangle.points:1
+#: ../../docstring of kivy.graphics.vertex_instructions.Line.points:1
+#: ../../docstring of kivy.graphics.vertex_instructions.Point.points:1
+#: ../../docstring of kivy.graphics.vertex_instructions.Bezier.points:1
+msgid "Property for getting/settings points of the triangle"
+msgstr ""
+
+# 270da575233d48f8b3a4e692885a12a0
+#: ../../docstring of kivy.graphics.vertex_instructions.Quad:1
+msgid "A 2d quad."
+msgstr ""
+
+# 59e3431ebd8944d29296f328b69b51ae
+#: ../../docstring of kivy.graphics.vertex_instructions.Quad:5
+msgid "List of point in the format (x1, y1, x2, y2, x3, y3, x4, y4)"
+msgstr ""
+
+# 4fe56c6989cb4400baa9997fdf3030e1
+#: ../../docstring of kivy.graphics.vertex_instructions.Quad.points:1
+msgid "Property for getting/settings points of the quads"
+msgstr ""
+
+# 8abd0837acb34953b2262c1b360930ae
+#: ../../docstring of kivy.graphics.vertex_instructions.Rectangle:1
+msgid "A 2d rectangle."
+msgstr ""
+
+# 78669fca6d40475aa3a4bccab8140ae3
+#: ../../docstring of kivy.graphics.vertex_instructions.Rectangle:5
+msgid "Position of the rectangle, in the format (x, y)"
+msgstr ""
+
+# 2412c60d872e4d5eba14a321189d3f02
+#: ../../docstring of kivy.graphics.vertex_instructions.Rectangle:7
+msgid "Size of the rectangle, in the format (width, height)"
+msgstr ""
+
+# 7b626450ff3b40088c8e243cc90c8604
+#: ../../docstring of kivy.graphics.vertex_instructions.Rectangle.pos:1
+msgid "Property for getting/settings the position of the rectangle"
+msgstr ""
+
+# 3d3d9e702b5d422fbe9100095df302e2
+#: ../../docstring of kivy.graphics.vertex_instructions.Rectangle.size:1
+msgid "Property for getting/settings the size of the rectangle"
+msgstr ""
+
+# 4c52f5ba284346758d0130b965e456d8
+# 71318393eae447d9a46101bdb0a8c8fe
+#: ../../<autodoc>:1
+#: ../../<autodoc>:1
+msgid "Bases: :class:`kivy.graphics.vertex_instructions.Rectangle`"
+msgstr ""
+
+# 673495e8505a4108b1b0134cfadcb74e
+#: ../../docstring of kivy.graphics.vertex_instructions.BorderImage:1
+msgid "A 2d border image. The behavior of the border image is similar to the concept of CSS3 border-image."
+msgstr ""
+
+# aac4b234a40147739c077a600f11dd90
+#: ../../docstring of kivy.graphics.vertex_instructions.BorderImage:6
+msgid "Border information in the format (top, right, bottom, left). Each value is in pixels."
+msgstr ""
+
+# a9cbca70743f462cab6da5038b6a5923
+#: ../../docstring of kivy.graphics.vertex_instructions.BorderImage.border:1
+msgid "Property for getting/setting the border of the class"
+msgstr ""
+
+# 315dca6c3fb741d58c262af728fc0ec3
+#: ../../docstring of kivy.graphics.vertex_instructions.Ellipse:1
+msgid "A 2D ellipse."
+msgstr ""
+
+# 02ea4b23dc9e4e96919d6c29c8259399
+# aeeaf65a07c44e3e93826f5878bd6886
+#: ../../docstring of kivy.graphics.vertex_instructions.Ellipse:7
+#: ../../docstring of kivy.graphics.vertex_instructions.Bezier:9
+msgid "Define how much segment is needed for drawing the ellipse. The drawing will be smoother if you have lot of segment."
+msgstr ""
+
+# 3f37f50f213545f5a93c0aa2c1f9ceb8
+#: ../../docstring of kivy.graphics.vertex_instructions.Ellipse:10
+msgid "Specifies the starting angle, in degrees, of the disk portion"
+msgstr ""
+
+# 6775e0e4a33b41178b79f6997e72a7e4
+#: ../../docstring of kivy.graphics.vertex_instructions.Ellipse:12
+msgid "Specifies the ending angle, in degrees, of the disk portion"
+msgstr ""
+
+# e8eb63f4d58a4b38a60cd8acaf5943d0
+#: ../../docstring of kivy.graphics.vertex_instructions.Ellipse.angle_end:1
+msgid "Angle end of the ellipse in degrees, default to 360"
+msgstr ""
+
+# 1c033b0fce5d4607a135b7814b21a9b5
+#: ../../docstring of kivy.graphics.vertex_instructions.Ellipse.angle_start:1
+msgid "Angle start of the ellipse in degrees, default to 0"
+msgstr ""
+
+# 5e3bfa97942f4e94b150e0444143e139
+#: ../../docstring of kivy.graphics.vertex_instructions.Ellipse.segments:1
+msgid "Property for getting/setting the number of segments of the ellipse"
+msgstr ""
+
+# a92d672ff619430a911b11353014e916
+# 6107ea2039584448a5a631cf4902ed0d
+#: ../../docstring of kivy.graphics.vertex_instructions.Line:1
+#: ../../docstring of kivy.graphics.vertex_instructions.Point:1
+msgid "A 2d line."
+msgstr ""
+
+# 7e14dffb1a6d4597902122a7a8dbc11e
+# 07304daa95be4ef2a2fd7a5d6c50eeba
+# 9c87ded70f1f432881922640e7f1ff49
+#: ../../docstring of kivy.graphics.vertex_instructions.Line:8
+#: ../../docstring of kivy.graphics.vertex_instructions.Point:5
+#: ../../docstring of kivy.graphics.vertex_instructions.Bezier:7
+msgid "List of points in the format (x1, y1, x2, y2...)"
+msgstr ""
+
+# 51e24dd1e12849819539f1408a981d80
+# 0af36d8623f84a0185bfde2f3c7ebe78
+#: ../../docstring of kivy.graphics.vertex_instructions.Line:10
+#: ../../docstring of kivy.graphics.vertex_instructions.Bezier:14
+msgid "length of a segment (if dashed), default 1"
+msgstr ""
+
+# 83c8850105e8472a8cc95487aceaa385
+#: ../../docstring of kivy.graphics.vertex_instructions.Line:12
+msgid "offset between the end of a segments and the begining of the next one, default 0, changing this makes it dashed."
+msgstr ""
+
+# 2376ec064dca4d449984602cab9d10da
+# fa616c5759f84e839060f97aff4f359c
+#: ../../docstring of kivy.graphics.vertex_instructions.Line.dash_length:1
+#: ../../docstring of kivy.graphics.vertex_instructions.Bezier.dash_length:1
+msgid "Property for getting/stting the length of the dashes in the curve"
+msgstr ""
+
+# 328492be351d4faba8807369c49e6086
+# 7a2cd42018854b309ca4c87687ea12ca
+#: ../../docstring of kivy.graphics.vertex_instructions.Line.dash_offset:1
+#: ../../docstring of kivy.graphics.vertex_instructions.Bezier.dash_offset:1
+msgid "Property for getting/setting the offset between the dashes in the curve"
+msgstr ""
+
+# 953a69e204f34beb8212692538a6f458
+# 4397e9f645404d61b1bc71a20072780e
+#: ../../docstring of kivy.graphics.vertex_instructions.Line.points:5
+#: ../../docstring of kivy.graphics.vertex_instructions.Bezier.points:5
+msgid "This will always reconstruct the whole graphics from the new points list. It can be very CPU expensive."
+msgstr ""
+
+# f5cd22d12f184093884fcda6c18ed5aa
+#: ../../docstring of kivy.graphics.vertex_instructions.Point:7
+msgid "Size of the point (1. mean the real size will be 2)"
+msgstr ""
+
+# 0e53c1f09f7046bcb4f54470808608bf
+#: ../../docstring of kivy.graphics.vertex_instructions.Point:11
+msgid "Starting from version 1.0.7, vertex instruction have a limit of 65535 vertices (indices of vertex to be accurate). 2 entry in the list (x + y) will be converted to 4 vertices. So the limit inside Point() class is 2^15-2."
+msgstr ""
+
+# ef3c006e2c374d4d8efffd9971f5330c
+#: ../../docstring of kivy.graphics.vertex_instructions.Point.add_point:2
+msgid "If you intend to add multiple point, prefer to use this method, instead of reassign a new :data:`points` list. Assigning a new :data:`points` list will recalculate and reupload the whole buffer into GPU. If you use add_point, it will only upload the changes."
+msgstr ""
+
+# 44bb8f8ca3da4b54937feb19b6a4a3ee
+#: ../../docstring of kivy.graphics.vertex_instructions.Point.pointsize:1
+msgid "Property for getting/setting point size"
+msgstr ""
+
+# 12091dfaa46a4724982690884bdeb506
+#: ../../<autodoc>:1
+msgid "Bases: :class:`exceptions.Exception`"
+msgstr ""
+
+# 9dd3160a6c364a4a973ca73b1c0aa8c9
+#: ../../docstring of kivy.graphics.vertex_instructions.GraphicException:1
+msgid "Exception fired when a graphic error is fired."
+msgstr ""
+
+# ccf3a46bf8e94af8917332dc492a933e
+#: ../../docstring of kivy.graphics.vertex_instructions.Bezier:1
+msgid "A 2d Bezier curve."
+msgstr ""
+
+# d5f00df957014d13b76e1149d476f65d
+#: ../../docstring of kivy.graphics.vertex_instructions.Bezier:12
+msgid "Set the bezier curve to join last point to first."
+msgstr ""
+
+# f21cca8e4b1a4d16be541c9b9b3ade80
+#: ../../docstring of kivy.graphics.vertex_instructions.Bezier:16
+msgid "distance between the end of a segment and the start of the next one, default 0, changing this makes it dashed."
+msgstr ""
+
+# 2e6eddeafd2d4e3ab255dae80191b891
+#: ../../docstring of kivy.graphics.vertex_instructions.Bezier.segments:1
+msgid "Property for getting/setting the number of segments of the curve"
+msgstr ""

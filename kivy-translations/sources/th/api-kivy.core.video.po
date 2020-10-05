@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 17:12\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# 3ea7fce63bd94f61a94cf69020225333
+#: ../../sources/api-kivy.core.video.rst:3
+msgid "Video"
+msgstr ""
+
+# 2298a3de570c4b19858df237eb026935
+#: ../../../kivy/core/video/__init__.py:docstring of kivy.core.video:2
+msgid "Core class for reading video file and manage the :class:`kivy.graphics.texture.Texture` video."
+msgstr ""
+
+# 95c5741cdee94494befc73ad952bcd8c
+#: ../../../kivy/core/video/__init__.py:docstring of kivy.core.video:7
+msgid "Recording is not supported."
+msgstr ""
+
+# 07dd8ffd332847019df2be590c6f3b3d
+#: ../../<autodoc>:1
+msgid "Bases: :class:`kivy.event.EventDispatcher`"
+msgstr ""
+
+# 7a89c94a8fb34a44a36b23f561e5984a
+#: ../../../kivy/core/video/__init__.py:docstring of kivy.core.video.VideoBase:1
+msgid "VideoBase, a class to implement a video reader."
+msgstr ""
+
+# ffdbc909586a462b8e82e676f2162506
+#: ../../../kivy/core/video/__init__.py:docstring of kivy.core.video.VideoBase:5
+msgid "Filename of the video. Can be a file or an URI."
+msgstr ""
+
+# 0216648bc4bf4517a5ff0127f31c87b1
+#: ../../../kivy/core/video/__init__.py:docstring of kivy.core.video.VideoBase:7
+msgid "Action to do when EOS is hit. Can be one of 'pause' or 'loop'"
+msgstr ""
+
+# 2aa2490e0c914f3497e60773cfeaac04
+#: ../../../kivy/core/video/__init__.py:docstring of kivy.core.video.VideoBase:9
+msgid "Asynchronous loading (may be not supported by all providers)"
+msgstr ""
+
+# 5cfb2e15197546ddbecfb789cb23c35c
+#: ../../../kivy/core/video/__init__.py:docstring of kivy.core.video.VideoBase:11
+msgid "Auto play the video at init"
+msgstr ""
+
+# 1236ee18cc85416995ba8a62a060342c
+#: ../../../kivy/core/video/__init__.py:docstring of kivy.core.video.VideoBase:15
+msgid "Fired when EOS is hit"
+msgstr ""
+
+# 7ef28ef5f16145c7bca391b673d45d71
+#: ../../../kivy/core/video/__init__.py:docstring of kivy.core.video.VideoBase:17
+msgid "Fired when the video is loaded, texture is available"
+msgstr ""
+
+# afd5235daf184c25ad83072d1fa6e87c
+#: ../../../kivy/core/video/__init__.py:docstring of kivy.core.video.VideoBase:19
+msgid "Fired when a new frame is written on texture"
+msgstr ""
+
+# 70f471bc552848358f85de792dc38775
+#: ../../../kivy/core/video/__init__.py:docstring of kivy.core.video.VideoBase.duration:1
+msgid "Get the video duration (in seconds)"
+msgstr ""
+
+# 11c4d619771643cdad9d88838b3ec31f
+#: ../../../kivy/core/video/__init__.py:docstring of kivy.core.video.VideoBase.filename:1
+msgid "Get/set the filename/uri of current video"
+msgstr ""
+
+# da45867749514367aad07d7d6dd1003d
+#: ../../../kivy/core/video/__init__.py:docstring of kivy.core.video.VideoBase.load:1
+msgid "Load the video from the current filename"
+msgstr ""
+
+# 479f24f5bd934a3287dca7ca2553b733
+#: ../../../kivy/core/video/__init__.py:docstring of kivy.core.video.VideoBase.play:1
+msgid "Play the video"
+msgstr ""
+
+# 1abd744b1dce46b5853edd126989d3a2
+#: ../../../kivy/core/video/__init__.py:docstring of kivy.core.video.VideoBase.position:1
+msgid "Get/set the position in the video (in seconds)"
+msgstr ""
+
+# e774ca682b7546ed83a6cdde56cd090f
+#: ../../../kivy/core/video/__init__.py:docstring of kivy.core.video.VideoBase.seek:1
+msgid "Move on percent position"
+msgstr ""
+
+# 3e8b403e195c4f98a8fff337b83aaef4
+#: ../../../kivy/core/video/__init__.py:docstring of kivy.core.video.VideoBase.state:1
+msgid "Get the video playing status"
+msgstr ""
+
+# 54e972aec9314036a02a1e872d1991be
+#: ../../../kivy/core/video/__init__.py:docstring of kivy.core.video.VideoBase.stop:1
+msgid "Stop the video playing"
+msgstr ""
+
+# e2399bcac1384e7b9a636a0f8640f964
+#: ../../../kivy/core/video/__init__.py:docstring of kivy.core.video.VideoBase.texture:1
+msgid "Get the video texture"
+msgstr ""
+
+# f2c9bc01f9594a3caa33d2003e216448
+#: ../../../kivy/core/video/__init__.py:docstring of kivy.core.video.VideoBase.unload:1
+msgid "Unload the actual video"
+msgstr ""
+
+# aa1f5cf5ba734bb0b01db251e6587eaf
+#: ../../../kivy/core/video/__init__.py:docstring of kivy.core.video.VideoBase.volume:1
+msgid "Get/set the volume in the video (1.0 = 100%)"
+msgstr ""

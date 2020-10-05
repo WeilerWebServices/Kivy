@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 17:12\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# acb0c3ceff8945029c4e90fdbed4a6da
+#: ../../sources/api-kivy.rst:3
+msgid "Kivy framework"
+msgstr ""
+
+# 6254c14385b8478d8f3f9b59e9baad97
+#: ../../../kivy/__init__.py:docstring of kivy:2
+msgid "Kivy is an open source library for developing multi-touch applications. It is completely cross-platform (Linux/OSX/Win) and released under the terms of the GNU LGPL."
+msgstr ""
+
+# 6e746489152c4b8da17503dc9da1574f
+#: ../../../kivy/__init__.py:docstring of kivy:6
+msgid "It comes with native support for many multi-touch input devices, a growing library of multi-touch aware widgets and hardware accelerated OpenGL drawing. Kivy is designed to let you focus on building custom and highly interactive  applications as quickly and easily as possible."
+msgstr ""
+
+# 924125ec44414cea8fa62dc91fe36b83
+#: ../../../kivy/__init__.py:docstring of kivy:11
+msgid "With Kivy, you can take full advantage of the dynamic nature of Python. There  are thousands of high-quality, free libraries that can be integrated in your  application. At the same time, performance-critical parts are implemented  in the C language."
+msgstr ""
+
+# 930053785def43f7895527a0c2205b2c
+#: ../../../kivy/__init__.py:docstring of kivy:16
+msgid "See http://kivy.org for more information."
+msgstr ""
+
+# 40dacfb2295b456aa3a01401e6066023
+#: ../../../kivy/__init__.py:docstring of kivy.require:1
+msgid "Require can be used to check the minimum version required to run a Kivy application. For example, you can start your application code like this::"
+msgstr ""
+
+# 8d6cb9878f3b4418b4aa768840ea02f5
+#: ../../../kivy/__init__.py:docstring of kivy.require:7
+msgid "If a user attempts to run your application with a version of Kivy that is older than the specified version, an Exception is raised."
+msgstr ""
+
+# d6cb546371794891af2e7cd853eeab73
+#: ../../../kivy/__init__.py:docstring of kivy.require:10
+msgid "The Kivy version string is built like this::"
+msgstr ""
+
+# bbd4b94b29244ef08c72a8db623736b3
+#: ../../../kivy/__init__.py:docstring of kivy.require:18
+msgid "The tag is optional, but may be one of 'dev', 'alpha', or 'beta'. The tagrevision is the revision of the tag."
+msgstr ""
+
+# 501f426e09ad489c9281039da1552ec2
+#: ../../../kivy/__init__.py:docstring of kivy.require:23
+msgid "You must not ask for a version with a tag, except -dev. Asking for a 'dev' version will just warn the user if the current Kivy version is not a -dev, but it will never raise an exception. You must not ask for a version with a tagrevision."
+msgstr ""
+
+# 5a4f0e5a895f483f9d19dd31df3d0779
+#: ../../../kivy/__init__.py:docstring of kivy.kivy_configure:1
+msgid "Call post-configuration of Kivy. This function must be called if you create the window yourself."
+msgstr ""
+
+# f1cedd966e294928a445b76efb1bfd17
+#: ../../../kivy/__init__.py:docstring of kivy.kivy_register_post_configuration:1
+msgid "Register a function to be called when kivy_configure() is called."
+msgstr ""
+
+# 2e41076c38bb441492b13fa721995e83
+#: ../../../kivy/__init__.py:docstring of kivy.kivy_register_post_configuration:4
+msgid "Internal use only."
+msgstr ""
+
+# 7a69a254a6644b0e9144803077356974
+#: ../../../kivy/__init__.py:docstring of kivy.kivy_options:1
+msgid "Global settings options for kivy"
+msgstr ""
+
+# 2a8b8299c7a74b44b352ac2753338b1e
+#: ../../../kivy/__init__.py:docstring of kivy.kivy_base_dir:1
+msgid "Kivy directory"
+msgstr ""
+
+# f21c5f952c064932b69f8d7d4d378272
+#: ../../../kivy/__init__.py:docstring of kivy.kivy_modules_dir:1
+msgid "Kivy modules directory"
+msgstr ""
+
+# 098d5b0ee27142248d365cb996d4332d
+#: ../../../kivy/__init__.py:docstring of kivy.kivy_data_dir:1
+msgid "Kivy data directory"
+msgstr ""
+
+# 1ccf51f273ac48a3b77f596e06c67f93
+#: ../../../kivy/__init__.py:docstring of kivy.kivy_shader_dir:1
+msgid "Kivy glsl shader directory"
+msgstr ""
+
+# 61812399213f447588f6496d208bd82c
+#: ../../../kivy/__init__.py:docstring of kivy.kivy_icons_dir:1
+msgid "Kivy icons config path (don't remove the last '')"
+msgstr ""
+
+# b69017c1ff1046b2b64051a2733c3d5a
+#: ../../../kivy/__init__.py:docstring of kivy.kivy_home_dir:1
+msgid "Kivy user-home storage directory"
+msgstr ""
+
+# 5a0e3dfbe32940e28c6a8447c66b23ed
+#: ../../../kivy/__init__.py:docstring of kivy.kivy_config_fn:1
+msgid "Kivy configuration filename"
+msgstr ""
+
+# 85862b35312c48988cf7503521e22309
+#: ../../../kivy/__init__.py:docstring of kivy.kivy_usermodules_dir:1
+msgid "Kivy user modules directory"
+msgstr ""

@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.9-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-24 12:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../sources/api-kivy.uix.layout.rst:3
+# 10400dc6936d4dd98b54dee7d34b9830
+msgid "Layout"
+msgstr ""
+
+#: ../../../kivy/uix/layout.py:docstring of kivy.uix.layout:2
+# b550443ee7e4461cb1d1dc37d46b691b
+msgid "Layouts are used to calculate and assign widget positions."
+msgstr ""
+
+#: ../../../kivy/uix/layout.py:docstring of kivy.uix.layout:4
+# 1f1925686f814d3a88bd66330ea34fb0
+msgid "The :class:`Layout` class itself cannot be used directly. You must use one of:"
+msgstr ""
+
+#: ../../../kivy/uix/layout.py:docstring of kivy.uix.layout:6
+# 01018611aca14aa08a9bb4025584b345
+msgid "Anchor layout : :class:`kivy.uix.anchorlayout.AnchorLayout`"
+msgstr ""
+
+#: ../../../kivy/uix/layout.py:docstring of kivy.uix.layout:7
+# f5ad78bac8b04cbcb82af7cb18ce2018
+msgid "Box layout : :class:`kivy.uix.boxlayout.BoxLayout`"
+msgstr ""
+
+#: ../../../kivy/uix/layout.py:docstring of kivy.uix.layout:8
+# 662227f8aaea4e119a49aa546fb08c5b
+msgid "Float layout : :class:`kivy.uix.floatlayout.FloatLayout`"
+msgstr ""
+
+#: ../../../kivy/uix/layout.py:docstring of kivy.uix.layout:9
+# ee7ffee738484ea18e16c90cb411a199
+msgid "Grid layout : :class:`kivy.uix.gridlayout.GridLayout`"
+msgstr ""
+
+#: ../../../kivy/uix/layout.py:docstring of kivy.uix.layout:10
+# aa9cf5f063114fe58d7d9c52c37f3147
+msgid "Stack layout : :class:`kivy.uix.stacklayout.StackLayout`"
+msgstr ""
+
+#: ../../../kivy/uix/layout.py:docstring of kivy.uix.layout:13
+# d0768a2992d346ba9d2c34bb212fe880
+msgid "Understanding `size_hint` property in `Widget`"
+msgstr ""
+
+#: ../../../kivy/uix/layout.py:docstring of kivy.uix.layout:15
+# a7952efc95db4a71a928212a1b02754a
+msgid "The :data:`~kivy.uix.Widget.size_hint` is mostly used in Layout. This is the size in percent, not in pixels. The format is::"
+msgstr ""
+
+#: ../../../kivy/uix/layout.py:docstring of kivy.uix.layout:20
+# 5b2f167868034695b6ce3714d4e55c24
+msgid "The percent is specified as a floating point number in the range 0-1, ie 0.5 is 50%, 1 is 100%."
+msgstr ""
+
+#: ../../../kivy/uix/layout.py:docstring of kivy.uix.layout:23
+# 2177664ede6644f9a9399eea6d7b760f
+msgid "If you want a widget's width to be half of the parent's and their heights to be identical, you can do::"
+msgstr ""
+
+#: ../../../kivy/uix/layout.py:docstring of kivy.uix.layout:28
+# 92d4e5cfe0f2411d9b5ee53e952ef302
+msgid "If you don't want to use size_hint for one of width or height, set the value to None. For example, to make a widget that is 250px wide and 30% of the parent's height, you can write::"
+msgstr ""
+
+#: ../../<autodoc>:1
+# c6aa3ec88ca24a3aaa7d2111faaf1699
+msgid "Bases: :class:`kivy.uix.widget.Widget`"
+msgstr ""
+
+#: ../../../kivy/uix/layout.py:docstring of kivy.uix.layout.Layout:1
+# 398b47b047b94708a0a7f7a50e6abbd3
+msgid "Layout interface class, used to implement every layout. Check module documentation for more information."
+msgstr ""
+
+#: ../../../kivy/uix/layout.py:docstring of kivy.uix.layout.Layout.do_layout:1
+# 9ad5e4c2ea4d48e3ba0f60719c493269
+msgid "This function is called when a layout is needed, with by a trigger. If you are doing a new Layout subclass, don't call this function directly, use :prop:`_trigger_layout` instead."
+msgstr ""
+
+#: ../../../kivy/uix/layout.py:docstring of kivy.uix.layout.Layout.reposition_child:1
+# 3d8ffc5ea9164c3c884ac3ad8258819c
+msgid "Force the child to be repositioned on the screen. This method is used internally in boxlayout."
+msgstr ""
+

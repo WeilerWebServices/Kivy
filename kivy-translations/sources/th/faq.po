@@ -1,0 +1,227 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 17:12\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# ea3b3713027e434ebb51d9a2ef0d5e72
+#: ../../sources/faq.rst:4
+msgid "Frequently Asked Questions"
+msgstr ""
+
+# 8c78a2d1e8854262b2f44dcd0aeac733
+#: ../../sources/faq.rst:6
+msgid "There are a number of questions that repeatedly need to be answered. The following document tries to answer some of them."
+msgstr ""
+
+# 1930ebf58f2a468796a57dc45837ab86
+#: ../../sources/faq.rst:12
+msgid "Technical FAQ"
+msgstr ""
+
+# ca17a30595054fbd982fbf4eb193be3e
+#: ../../sources/faq.rst:15
+msgid "Fatal Python error: (pygame parachute) Segmentation Fault"
+msgstr ""
+
+# 87bc895f815847b5aea1e5634a6d4c1f
+#: ../../sources/faq.rst:17
+msgid "Most of time, this issue is due to an usage of old graphics driver. Install the latest graphics driver available for your graphics card, and it could be ok."
+msgstr ""
+
+# 14bd27bd959d4ceaa114fb1d109c7164
+#: ../../sources/faq.rst:20
+msgid "If not, please report a detailled issue to github, by following the :ref:`contribute` document, in the section `Reporting an Issue`. This is very important for us because that kind of error can be very hard to debug. Give us all the informations you can give about your environment and execution."
+msgstr ""
+
+# d8b7e93d7b0c41dc9833c2d7eb709f5f
+#: ../../sources/faq.rst:27
+msgid "undefined symbol: glGenerateMipmap"
+msgstr ""
+
+# e6b91718be134e3ba4c13a53165eae64
+#: ../../sources/faq.rst:29
+msgid "You might have a too old graphics card. Update your graphics drivers to the latest available version, and retry."
+msgstr ""
+
+# d4f2af00385b4cd59431f140f69e21a5
+#: ../../sources/faq.rst:33
+msgid "ImportError: No module named event"
+msgstr ""
+
+# 9892f9c6ee5d44f785db726412dc32d6
+#: ../../sources/faq.rst:35
+msgid "If you use Kivy from our development version, you must compile it before using it. In the kivy directory, do::"
+msgstr ""
+
+# a56805c43a5d4ff6ae916d21c300a262
+#: ../../sources/faq.rst:41
+msgid "Pip installation failed"
+msgstr ""
+
+# fd49c2f96b324b28a0b0b74e77dd1fb2
+#: ../../sources/faq.rst:43
+msgid "Installing Kivy using Pip is not currently supported. Because Pip force the usage of setuptools, setuptools hack build_ext to use pyrex for generating .c, and they are no clean solution to hack against both weird behaviors to use Cython. (Reference: http://mail.scipy.org/pipermail/nipy-devel/2011-March/005709.html)"
+msgstr ""
+
+# 4ef014482df2475a9d0f7c4beaa6d987
+#: ../../sources/faq.rst:48
+msgid "Solution: use `easy_install`, as our documentation said."
+msgstr ""
+
+# e76fc29fa43b48aa92ea8763743a687b
+#: ../../sources/faq.rst:52
+msgid "Project FAQ"
+msgstr ""
+
+# 150652217d844e438d4bbdf6fc8e69bb
+#: ../../sources/faq.rst:55
+msgid "Why do you use Python? Isn't it slow?"
+msgstr ""
+
+# 55802bdf81514a2e822f12a867640110
+#: ../../sources/faq.rst:57
+msgid "Let us try to give a thorough answer; please bear with us."
+msgstr ""
+
+# 5b3f4fbb52da4a8380032433a73aedca
+#: ../../sources/faq.rst:59
+msgid "Python is a very agile language that allows you to do many things in (by comparison) short time. For many development scenarios, we strongly prefer writing our application quickly in a high-level language such as Python, testing it, then optionally optimizing it."
+msgstr ""
+
+# 7c9e9efa18884ef393ef0ff0217ed5e4
+#: ../../sources/faq.rst:65
+msgid "But what about speed? If you compare execution speeds of implementations for a certain set of algorithms (esp. number crunching) you will find that Python is a lot slower than say, C++. Now you may be even more convinced that it's not a good idea in our case to use Python. Drawing sophisticated graphics (and we are not talking about your grandmother's OpenGL here) is computationally quite expensive and given that we often want to do that for rich user experiences, that would be a fair argument. **But**, in virtually every case your application ends up spending most of the time (by far) executing the same part of the code. For Kivy for example, these parts are event dispatching and graphics drawing. Now Python allows you to do something to make these parts much faster."
+msgstr ""
+
+# ba8a15a0d62f46c48a00eea18d3c035e
+#: ../../sources/faq.rst:80
+msgid "By using Cython, you can compile your code down to the C level, and from there your usual C compiler optimizes things. This is a pretty pain free process and if you add some hints to your code, the result becomes even faster. We are talking about a speed up in performance by a factor of anything in between 1x and up to more than 1000x (greatly depends on your code). In Kivy, we did this for you and implemented the portions of our code where efficiency really is critical on the C level."
+msgstr ""
+
+# 20f77db990524cdf9f8366bb55942856
+#: ../../sources/faq.rst:89
+msgid "For graphics drawing, we also leverage today's GPUs which are, for some tasks such as graphics rasterization, much more efficent than a CPU. Kivy does as much as is reasonable on the GPU to maximize performance. If you use our Canvas API to do the drawing, there is even a compiler that we invented which optimizes your drawing code automatically. If you keep your drawing on the GPU mostly, much of your program's execution speed is not determined by the programming language used, but by the graphics hardware you throw at it."
+msgstr ""
+
+# c26608a390734aab80499c1b0b16208e
+#: ../../sources/faq.rst:99
+msgid "We believe that these (and other) optimizations that Kivy does for you already make most applications fast enough by far. Often you will even want to limit the speed of the application in order not to waste resources. But even if this is not sufficient, you still have the option of using Cython for your own code to *greatly* speed it up."
+msgstr ""
+
+# 257e74f6e7e149878d82a5e59419139a
+#: ../../sources/faq.rst:106
+msgid "Trust us when we say that we have given this very careful thought. We have performed many different benchmarks and came up with quite some clever optimizations to make your application run smoothly."
+msgstr ""
+
+# 3e28d5354a60455e859312443dd813a3
+#: ../../sources/faq.rst:112
+msgid "Does Kivy support Python 3.x?"
+msgstr ""
+
+# c09eb6acdfc34a5bb8bf17cb32819820
+#: ../../sources/faq.rst:114
+msgid "No. Not yet. Python 3 is certainly a good thing; However, it broke backwards compatibility (for good reasons) which means that some considerable portion of available Python projects do not yet work with Python 3. This also applies to some of the projects that Kivy can use as a dependency, which is why we didn't make the switch yet. We would also need to switch our own codebase to Python 3. We didn't do that yet because it's not very high on our priority list, but if somebody doesn't want to wait for us doing it, please go ahead. Please note, though, that Python 2.x is still the de facto standard."
+msgstr ""
+
+# d5f73c7eaa9143e39e74a7ad54cf12fb
+#: ../../sources/faq.rst:126
+msgid "How is Kivy related to PyMT?"
+msgstr ""
+
+# 1e07f58a02c9409788749596736e8154
+#: ../../sources/faq.rst:128
+msgid "Our developers are professionals and are pretty savvy in their area of expertise. However, before Kivy came around there was (and still is) a project named PyMT that was led by our core developers. We learned a great deal from that project during the time that we developed it. In the more than two years of research and development we found many interesting ways on how to improve the design of our framework. We have done numerous benchmarks and as it turns out, to achieve the great speed and flexibility that Kivy has, we had to rewrite quite a big portion of the codebase, making this a backwards-incompatible but future-proof decision. Most notably are the performance increases, which are just incredible. Kivy starts and operates just so much faster, due to heavy optimizations. We also had the opportunity to work with businesses and associations using PyMT. We were able to test our product on a large diversity of setups and made PyMT work on all of these. Writing a system such as Kivy or PyMT is one thing. Making it work under all the different conditions is another. We have a good background here, and brought our knowledge to Kivy."
+msgstr ""
+
+# 6a73092489724ac0bf31793d107974b8
+#: ../../sources/faq.rst:148
+msgid "Furthermore, since some of our core developers decided to stop their full-time jobs and to turn to this project completely, it was decided that a more professional foundation had to be laid. Kivy is that foundation. It is supposed to be a stable and professional product. Technically, Kivy is not really a successor to PyMT because there is no easy migration path between them. However, the goal is the same: Producing high-quality applications for novel user interfaces. This is why we encourage everyone to base new projects on Kivy instead of PyMT. Active development of PyMT has stalled. Maintenance patches are still accepted."
+msgstr ""
+
+# 4aaf7f2c37144fda8af405edc44d3e25
+#: ../../sources/faq.rst:162
+msgid "Do you accept patches?"
+msgstr ""
+
+# a25286b6e6394916aad3d8b50a917440
+#: ../../sources/faq.rst:164
+msgid "Yes, we love patches. In order to ensure a smooth integration of your precious changes, however, please make sure to read our contribution guidelines. Obviously we don't accept every patch. Your patch has to be coherent with our styleguide and, more importantly, make sense. It does make sense to talk to us before you come up with bigger changes, especially new features."
+msgstr ""
+
+# 54c768e148264440b856c35c58941baa
+#: ../../sources/faq.rst:174
+msgid "Does the Kivy project participate in Google's Summer of Code 2011?"
+msgstr ""
+
+# a835164c2ff042ba84e46dca03485da5
+#: ../../sources/faq.rst:176
+msgid "Since Google announced that there will be a GSoC 2011 we have had many potential students ask whether we would participate. The clear answer is: Indeed. :-) The NUIGroup has applied as an umbrella organization and luckily got chosen as one of the mentoring organizations. Given enough slots for NUIGroup, slots will be dedicated to Kivy. That also depends on the overall quality of the student proposals (i.e. if there is only one Kivy student proposal with a bad quality, Kivy will not get a slot). If you want to participate as a student and want to maximize your chances of being accepted, start talking to us today and try fixing some smaller (or larger, if you can ;-) problems to get used to our workflow. If we know you can work well with us, that'd be a big plus."
+msgstr ""
+
+# 18e4acd907c7487d9313ebf62c35859f
+#: ../../sources/faq.rst:189
+msgid "See: http://wiki.nuigroup.com/Google_Summer_of_Code_2011"
+msgstr ""
+
+# 651b28ff398b463aa51cc3e8bad5a4cc
+#: ../../sources/faq.rst:191
+msgid "Here's a checklist:"
+msgstr ""
+
+# ccdbf500ae8b405bb5594bc9498aa689
+#: ../../sources/faq.rst:193
+msgid "Make sure to read through the website and at least skim the documentation."
+msgstr ""
+
+# 6a89cf8a261f4502b48e295a71d95164
+#: ../../sources/faq.rst:195
+msgid "Look at the source code."
+msgstr ""
+
+# 193f7846d6fb4e1b989440b6a9c0694b
+#: ../../sources/faq.rst:196
+msgid "Read our contribution guidelines."
+msgstr ""
+
+# fbfff9f9f3f34992aae1dbcaa7969c79
+#: ../../sources/faq.rst:197
+msgid "Pick an idea that you think is interesting from the ideas list (see link above) or come up with your own idea."
+msgstr ""
+
+# 6327087de7a54f48bc0ad2acba0dcf6c
+#: ../../sources/faq.rst:199
+msgid "Do some research **yourself**. GSoC is not about us teaching you something and you getting paid for that. It is about you trying to achieve agreed upon goals by yourself with our support. The main driving force in this should be, obviously, yourself, though. Many students come up and ask what they should do. Well, we don't know because we know neither your interests nor your skills. Show us you're serious about it and take initiative."
+msgstr ""
+
+# ac5394c505574f10890a8de70ceb4678
+#: ../../sources/faq.rst:206
+msgid "Write a draft proposal about what you want to do. Include what you understand the current state is (very roughly), what you would like to improve and how, etc."
+msgstr ""
+
+# d8bf7ab5b1474d42b6429033d91dcdcb
+#: ../../sources/faq.rst:209
+msgid "Discuss that proposal with us in a timely manner. Get feedback."
+msgstr ""
+
+# eaf3f5f444534303854ffbf518bc3e20
+#: ../../sources/faq.rst:210
+msgid "Be patient! Especially on IRC. We will try to get to you if we're available. If not, send an email and just wait. Most questions are already answered in the docs or somewhere else and can be found with some research. If your questions don't reflect that you've actually thought through what you're asking, that might not be received well."
+msgstr ""
+
+# 90816846fafa45e1a0fa2dcc9900954a
+#: ../../sources/faq.rst:216
+msgid "Good luck! :-)"
+msgstr ""

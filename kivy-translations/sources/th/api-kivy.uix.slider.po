@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 17:12\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# a3c88905cca745a4a2a3f39c77166040
+#: ../../sources/api-kivy.uix.slider.rst:3
+msgid "Slider"
+msgstr ""
+
+# 455024116e32446d8fa7dd7d789037f5
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider:4
+msgid "The :class:`Slider` widget looks like a scrollbar. It supports horizontal and vertical orientation, min/max and a default value."
+msgstr ""
+
+# c03aa0ba0892403cac5c23a0852e3df5
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider:7
+msgid "To create a slider from -100 to 100 starting at 25 ::"
+msgstr ""
+
+# c28f1fe3d6944933aa7b3d20d4ce1386
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider:12
+msgid "To create a vertical slider ::"
+msgstr ""
+
+# 13d6f315359743f384455957c284f2ff
+#: ../../<autodoc>:1
+msgid "Bases: :class:`kivy.uix.widget.Widget`"
+msgstr ""
+
+# ce5b6670ccee479e80621a0c64a37697
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider.Slider:1
+msgid "Class for creating Slider widget."
+msgstr ""
+
+# b18db9291a9a4d9585e766eb97234a49
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider.Slider:3
+msgid "Check module documentation for more details."
+msgstr ""
+
+# 5167009e71a94448bfa03c4ea74aa0c0
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider.Slider.max:1
+msgid "Maximum value allowed for :data:`value`."
+msgstr ""
+
+# cc2c7d7f97fa496fb2b9684f5114c272
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider.Slider.max:3
+msgid ":data:`max` is a :class:`~kivy.properties.NumericProperty`, default to 100."
+msgstr ""
+
+# 0a034b63b3ab4070bf5cfa763a44e09e
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider.Slider.min:1
+msgid "Minimum value allowed for :data:`value`."
+msgstr ""
+
+# c3137fd42dbf4e86b5f2dbb1dad984e8
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider.Slider.min:3
+msgid ":data:`min` is a :class:`~kivy.properties.NumericProperty`, default to 0."
+msgstr ""
+
+# 68338550c8314bffb9d051c92c3f4921
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider.Slider.orientation:1
+msgid "Orientation of the slider."
+msgstr ""
+
+# ef20d2bf09cb45a381b99d602ac9cce4
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider.Slider.orientation:3
+msgid ":data:`orientation` is an :class:`~kivy.properties.OptionProperty`, default to 'horizontal'. Can take a value of 'vertical' or 'horizontal'."
+msgstr ""
+
+# f5b5da04791d471395bd16547c9e38b0
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider.Slider.padding:1
+msgid "Padding of the slider. The padding is used for graphical representation and interaction. It prevent the cursor to go out of the bounds of the slider bounding box."
+msgstr ""
+
+# da09190b1a7b4f0888eae9e35abaaaef
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider.Slider.padding:5
+msgid "By default, padding is 10. The range of the slider is reduced from padding * 2 on the screen. It allow to draw a cursor of 20px width, without having the cursor going out of the widget."
+msgstr ""
+
+# 86f2d3b75d3c4ddeaee98b25c4d383b5
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider.Slider.padding:9
+msgid ":data:`padding` is a :class:`~kivy.properties.NumericProperty`, default to 10."
+msgstr ""
+
+# 76691d810c454bb2b3a0fdfba6c79028
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider.Slider.range:1
+msgid "Range of the slider, in the format (minimum value, maximum value). ::"
+msgstr ""
+
+# 2e4fbcbc65634f83a7d83e380979bff5
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider.Slider.range:12
+msgid ":data:`range` is a :class:`~kivy.properties.ReferenceListProperty` of (:data:`min`, :data:`max`)"
+msgstr ""
+
+# 29bbba3429d8453eb1891f295979a2a4
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider.Slider.value:1
+msgid "Current value used for the slider."
+msgstr ""
+
+# d8bc8e743a0644ddaff9eeef13754e09
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider.Slider.value:3
+msgid ":data:`value` is a :class:`~kivy.properties.NumericProperty`, default to 0."
+msgstr ""
+
+# 8b3fddc5d4da49da9e26b3bcdd039a8b
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider.Slider.value_normalized:1
+msgid "Normalized value inside the :data:`range` (min/max) to 0-1 range. ::"
+msgstr ""
+
+# 6214834605f0403e9c5a648502b1e8c2
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider.Slider.value_normalized:15
+msgid "You can also use it for setting the real value without knowing the minimum and maximum. ::"
+msgstr ""
+
+# a8349d2f39984f618b55a1edcf83c4c9
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider.Slider.value_normalized:26
+msgid ":data:`value_normalized` is an :class:`~kivy.properties.AliasProperty`."
+msgstr ""
+
+# 4298d8d2bfd04a999e057d39e854f8e8
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider.Slider.value_pos:1
+msgid "Position of the internal cursor, based on the normalized value."
+msgstr ""
+
+# 8b4c5e8c6d9a422eafc7450e409e120b
+#: ../../../kivy/uix/slider.py:docstring of kivy.uix.slider.Slider.value_pos:3
+msgid ":data:`value_pos` is an :class:`~kivy.properties.AliasProperty`."
+msgstr ""

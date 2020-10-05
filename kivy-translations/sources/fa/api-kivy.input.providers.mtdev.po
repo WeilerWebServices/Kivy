@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 16:54\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# a461a371d0564d6a9c661498e8afa5df
+#: ../../sources/api-kivy.input.providers.mtdev.rst:3
+msgid "Native support of Multitouch device on Linux, using libmtdev."
+msgstr ""
+
+# d23fb546f2a44b3985161a6d3c0e0dc7
+#: ../../../kivy/input/providers/mtdev.py:docstring of kivy.input.providers.mtdev:2
+msgid "Mtdev project is a part of Ubuntu Maverick multitouch architecture. You can read more on http://wiki.ubuntu.com/Multitouch"
+msgstr ""
+
+# 597879fbb0cd42e296de188635c39e92
+#: ../../../kivy/input/providers/mtdev.py:docstring of kivy.input.providers.mtdev:5
+msgid "To configure MTDev, it's preferable to use probesysfs providers. Check :py:class:`~kivy.input.providers.probesysfs` for more information."
+msgstr ""
+
+# ffd13c467fa24ee18b7583602d24b3cf
+#: ../../../kivy/input/providers/mtdev.py:docstring of kivy.input.providers.mtdev:8
+msgid "Otherwise, you can put in your configuration ::"
+msgstr ""
+
+# eda9444976fe4125b1bbe0426030946e
+#: ../../../kivy/input/providers/mtdev.py:docstring of kivy.input.providers.mtdev:15
+msgid "You must have read access to the input event."
+msgstr ""
+
+# 8a71209454bd46b89a9e151369187729
+#: ../../../kivy/input/providers/mtdev.py:docstring of kivy.input.providers.mtdev:17
+msgid "You have the possibility to use custom range for some X, Y and pressure value. On some drivers, the range reported is invalid. To fix that, you can add one of theses options on the argument line :"
+msgstr ""
+
+# 916881f033ba48c4974702c2b16cb20a
+#: ../../../kivy/input/providers/mtdev.py:docstring of kivy.input.providers.mtdev:21
+msgid "invert_x : 1 to invert X axis"
+msgstr ""
+
+# 4c983d63c9b449aeaa20ebce0f04fd68
+#: ../../../kivy/input/providers/mtdev.py:docstring of kivy.input.providers.mtdev:22
+msgid "invert_y : 1 to invert Y axis"
+msgstr ""
+
+# 7b3c790adefc4de1851e456b20f5176e
+#: ../../../kivy/input/providers/mtdev.py:docstring of kivy.input.providers.mtdev:23
+msgid "min_position_x : X minimum"
+msgstr ""
+
+# da7f0607606a4ef9a840bc993487d2fd
+#: ../../../kivy/input/providers/mtdev.py:docstring of kivy.input.providers.mtdev:24
+msgid "max_position_x : X maximum"
+msgstr ""
+
+# 6a2b5ab831264b198f30d8b8b998ba8a
+#: ../../../kivy/input/providers/mtdev.py:docstring of kivy.input.providers.mtdev:25
+msgid "min_position_y : Y minimum"
+msgstr ""
+
+# 69f4bfd4fa6848fda1301d0194acdfb1
+#: ../../../kivy/input/providers/mtdev.py:docstring of kivy.input.providers.mtdev:26
+msgid "max_position_y : Y maximum"
+msgstr ""
+
+# e3e9ef8a7c934585964304d745a91a51
+#: ../../../kivy/input/providers/mtdev.py:docstring of kivy.input.providers.mtdev:27
+msgid "min_pressure : pressure minimum"
+msgstr ""
+
+# 0b0d88fb97244e8e82c0acbfb80142cc
+#: ../../../kivy/input/providers/mtdev.py:docstring of kivy.input.providers.mtdev:28
+msgid "max_pressure : pressure maximum"
+msgstr ""
+
+# 4db3ccc1619f438f8c3835bdb48e9162
+#: ../../../kivy/input/providers/mtdev.py:docstring of kivy.input.providers.mtdev:29
+msgid "min_touch_major : width shape minimum"
+msgstr ""
+
+# 15dbfda2feed4c28be9dcc2dc673efa8
+#: ../../../kivy/input/providers/mtdev.py:docstring of kivy.input.providers.mtdev:30
+msgid "max_touch_major : width shape maximum"
+msgstr ""
+
+# 9f9f558c0d824622b90f5ef202d3131a
+#: ../../../kivy/input/providers/mtdev.py:docstring of kivy.input.providers.mtdev:31
+msgid "min_touch_minor : width shape minimum"
+msgstr ""
+
+# 9237bcfa2057422590eb5c4ba73f5f41
+#: ../../../kivy/input/providers/mtdev.py:docstring of kivy.input.providers.mtdev:32
+msgid "max_touch_minor : height shape maximum"
+msgstr ""

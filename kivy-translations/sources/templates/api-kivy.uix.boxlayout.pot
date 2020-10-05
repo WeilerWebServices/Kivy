@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.9-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-24 12:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../sources/api-kivy.uix.boxlayout.rst:3
+# 687adc96f78348a7981b668272cbdc1e
+msgid "Box Layout"
+msgstr ""
+
+#: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout:2
+# 5f51179e9b5b412b95f1875fa1d3aaa6
+msgid ":class:`BoxLayout` arranges children in a vertical or horizontal box."
+msgstr ""
+
+#: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout:4
+# 1149e6a1d2294d5da059f5954602b7a7
+msgid "To position widgets above/below each other, use a vertical BoxLayout::"
+msgstr ""
+
+#: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout:12
+# 7f337e8061af430ea5744ae34d3f592d
+msgid "To position widgets next to each other, use a horizontal BoxLayout. In this  example, we use 10 pixel spacing between children; the first button covers  70% of the horizontal space, the second covers 30%::"
+msgstr ""
+
+#: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout:24
+# 36911603c87d44b198a3e2a396904ff0
+msgid "The `size_hint` uses the available space after subtracting all the  fixed-size widgets. For example, if you have a layout that is 800px wide, and add three buttons like this:"
+msgstr ""
+
+#: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout:28
+# 4692403de91746adbe4427160b785cb6
+msgid "btn1 = Button(text='Hello', size=(200, 100), size_hint=(None, None)) btn2 = Button(text='Kivy', size_hint=(.5, 1)) btn3 = Button(text='World', size_hint=(.5, 1))"
+msgstr ""
+
+#: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout:32
+# 62af8a1ae1f34e268fb547a87fb1b056
+msgid "The first button will be 200px wide as specified, the second and third  will be 300px each, ie (800-200)*0.5"
+msgstr ""
+
+#: ../../<autodoc>:1
+# 7e11330cdf2a4aa9820a10193153ad2f
+msgid "Bases: :class:`kivy.uix.layout.Layout`"
+msgstr ""
+
+#: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout.BoxLayout:1
+# 20a671451452499283744e9d4f388bae
+msgid "Box layout class. See module documentation for more information."
+msgstr ""
+
+#: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout.BoxLayout.orientation:1
+# f5fedef3d097469c95b3f333d7151417
+msgid "Orientation of the layout."
+msgstr ""
+
+#: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout.BoxLayout.orientation:3
+# d44bc2ddabe642b68fcf1022546ba3f5
+msgid ":data:`orientation` is an :class:`~kivy.properties.OptionProperty`, default to 'horizontal'. Can be 'vertical' or 'horizontal'."
+msgstr ""
+
+#: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout.BoxLayout.padding:1
+# e2df0dc5b46b444491f367e9cf2f0de2
+msgid "Padding between layout box and children, in pixels."
+msgstr ""
+
+#: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout.BoxLayout.padding:3
+# 7c31ec7068ce45a3b4ec3652dd2da1fe
+msgid ":data:`padding` is a :class:`~kivy.properties.NumericProperty`, default to 0."
+msgstr ""
+
+#: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout.BoxLayout.spacing:1
+# 075591603d344ff29c153fca79f94766
+msgid "Spacing between children, in pixels."
+msgstr ""
+
+#: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout.BoxLayout.spacing:3
+# 91bca909241448cca2162427b487b262
+msgid ":data:`spacing` is a :class:`~kivy.properties.NumericProperty`, default to 0."
+msgstr ""
+

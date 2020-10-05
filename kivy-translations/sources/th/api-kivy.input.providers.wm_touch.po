@@ -1,0 +1,32 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 17:12\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# 0c54ce02e6204180bae7d9eb094f37a8
+#: ../../sources/api-kivy.input.providers.wm_touch.rst:3
+msgid "Support of WM_TOUCH message (Window platform)"
+msgstr ""
+
+# b2b468b15bdf47048d04c98ded6faa86
+#: ../../<autodoc>:1
+msgid "Bases: :class:`kivy.input.motionevent.MotionEvent`"
+msgstr ""
+
+# ada346a4bc164a3689cc06a05a0af80c
+#: ../../../kivy/input/providers/wm_touch.py:docstring of kivy.input.providers.wm_touch.WM_MotionEvent:1
+msgid "MotionEvent representing the WM_MotionEvent event. Supports pos, shape and size profiles."
+msgstr ""

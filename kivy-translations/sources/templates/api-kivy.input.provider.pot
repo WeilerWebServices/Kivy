@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.9-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-24 12:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../sources/api-kivy.input.provider.rst:3
+# 00946be5ccc043d888e07de825ddf57a
+msgid "Motion Event Provider"
+msgstr ""
+
+#: ../../../kivy/input/provider.py:docstring of kivy.input.provider:2
+# d4481719a52444ca9bfe5ee01eacd73a
+msgid "Abstract class for a implement a :class:`~kivy.input.motionevent.MotionEvent` provider. The implementation must support the :func:`~MotionEventProvider.start`, :func:`~MotionEventProvider.stop` and :func:`~MotionEventProvider.update` methods."
+msgstr ""
+
+#: ../../<autodoc>:1
+# a2cc440accb24996abf947ba77439264
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: ../../../kivy/input/provider.py:docstring of kivy.input.provider.MotionEventProvider:1
+# 8726d87ecc294010aa0b00256f9093ec
+msgid "Base class for a provider."
+msgstr ""
+
+#: ../../../kivy/input/provider.py:docstring of kivy.input.provider.MotionEventProvider.start:1
+# 45b862ecabb344ddb171857b03a8eb9a
+msgid "Start the provider. This method is automatically called when the application is started, and if the configuration use the current provider."
+msgstr ""
+
+#: ../../../kivy/input/provider.py:docstring of kivy.input.provider.MotionEventProvider.stop:1
+# 18b7bb16288a46a49b420b97b0d17e71
+msgid "Stop the provider"
+msgstr ""
+
+#: ../../../kivy/input/provider.py:docstring of kivy.input.provider.MotionEventProvider.update:1
+# 628a068bec9e427bb6afde9442f7d6c7
+msgid "Update the provider, and dispatch all the new touch event though the `dispatch_fn` argument."
+msgstr ""
+

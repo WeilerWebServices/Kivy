@@ -1,0 +1,293 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 16:54\n"
+"PO-Revision-Date: 2011-10-01 08:45+0200\n"
+"Last-Translator: AlessonZaire <magusubrazil@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.1.6\n"
+
+# 1e7d7b620e2b4184b4903433953b3776
+# dc3047c182844ef99d4599f7852a1957
+#: ../../sources/api-kivy.config.rst:3
+msgid "Configuration object"
+msgstr "Objeto de configuração"
+
+# 6721ed994bc848f1805b2699c79ca605
+# dc1fb94fa9d84f5aa8d82532042e4b70
+#: ../../../kivy/config.py:docstring of kivy.config:2
+msgid ":class:`Config` object is an instance of a modified Python ConfigParser. See `ConfigParser documentation <http://docs.python.org/library/configparser.html>`_ for more information."
+msgstr ""
+": classe: `config` é uma instância de uma ConfigParser de Python modificada. "
+"Veja `documentação ConfigParser "
+"<http://docs.python.org/library/configparser.html>` _ para mais informações."
+
+# 70a12e997097425186f1b64defce9e0c
+# 634f8fa80cad4ae992754908b838d407
+#: ../../../kivy/config.py:docstring of kivy.config:7
+msgid "Usage of Config object"
+msgstr "Uso do objeto Config"
+
+# 43dbefaba5bb42c8900e164d2e2e398f
+# 9b4f2e8ae3b7440eaebd4285bd68f133
+#: ../../../kivy/config.py:docstring of kivy.config:9
+msgid "Read a configuration token from a particular section::"
+msgstr "Lê uma configuração tomara de uma sessão em particular::"
+
+# faf70663a0514e8a9457c6b1075f3081
+# edf4dabdba5d46c39877c39f32dc1052
+#: ../../../kivy/config.py:docstring of kivy.config:15
+msgid "Change the configuration and save it::"
+msgstr "Muda e salva a configuração::"
+
+# 1faf2b82ed204b6aa50cac6808e5e6a9
+# a71c3d298b304fdfbb677f13661cf884
+#: ../../../kivy/config.py:docstring of kivy.config:21
+msgid "Available configuration tokens"
+msgstr "Tokens de configuração disponíveis"
+
+# 231240cc783742bab264ac00a3519812
+# 6608de6d3e74413cbb6bc5bdb42558e8
+#: ../../../kivy/config.py:docstring of kivy.config:33
+msgid "Set the minimum log level to use"
+msgstr "Seta o level mínimo de log para uso"
+
+# ee7af454ab934c83888659571feff359
+# 381f344ccc5b4d40bf02099a974fd18d
+#: ../../../kivy/config.py:docstring of kivy.config:35
+msgid "Path of log directory"
+msgstr "Caminho do diretório de log"
+
+# 59a1b33ba5af4c7083ef6735c03a1430
+# 51db5f92a9f24b01afd2a8cbcca2180e
+#: ../../../kivy/config.py:docstring of kivy.config:37
+msgid "Format string to use for the filename of log file"
+msgstr "Formato de string para uso em nome de arquivo do arquivo de logs"
+
+# b8cecf91ae4f49d883ef3c8e89668cc0
+# 20c76e057b3f43f4b0a7f48dbd64c5d8
+#: ../../../kivy/config.py:docstring of kivy.config:39
+msgid "Activate file logging"
+msgstr "Ativa log de arquivos"
+
+# b9fbc1eb8d394537a037a5b0d383f5aa
+# 34a0b5f577014e38bfd3a635a8afecd7
+#: ../../../kivy/config.py:docstring of kivy.config:44
+msgid "Time allowed for the detection of double tap, in milliseconds"
+msgstr ""
+"Tempo permitido para a detecção de tocar duas vezes, em milésimos de segundo"
+
+# 19e61082a0bd4c9e9f0609f3a86994d6
+# 809402cfc2b54d33828a1f52baafa2d2
+#: ../../../kivy/config.py:docstring of kivy.config:46
+msgid "Maximum distance allowed for a double tap, normalized inside the range 0 - 1000"
+msgstr ""
+"Distância máxima permitida para um duplo toque, normalizada dentro do "
+"intervalo 0-1000"
+
+# 425e97b8b0b9413b8e59b7fd21cb907f
+# 28c69e1d32fb48fab287a2402692e4a4
+#: ../../../kivy/config.py:docstring of kivy.config:49
+msgid "Time allowed for a retain touch, in milliseconds"
+msgstr "Tempo permitido para um retimento de toque, em milésimos de segundo"
+
+# e75565fc33ed41eba59a07a71a845cd5
+# 72c7ae621f6e4753b7354578c5a6502a
+#: ../../../kivy/config.py:docstring of kivy.config:51
+msgid "If the touch moves more than is indicated by retain_distance, it will not be retained. Argument should be an int between 0 and 1000."
+msgstr ""
+"Se o toque se move mais do que é indicado por retain_distance, não será "
+"mantido. Argumento deve ser um int entre 0 e 1000."
+
+# a930efdc2c8b45d5a1d83d8966649eb2
+# 58c4f087dba149778143e407661408f8
+#: ../../../kivy/config.py:docstring of kivy.config:54
+msgid "Maximum distance for jittering detection, normalized inside the range 0 - 1000"
+msgstr ""
+"Distância máxima de detecção jittering, normalizada dentro do intervalo "
+"0-1000"
+
+# 15bbb62ba03c49148d123d2a49626d14
+# 65f308ceaa8a4f87ac114e5d005e1038
+#: ../../../kivy/config.py:docstring of kivy.config:57
+msgid "List of devices to ignore from jittering detection"
+msgstr "Lista de dispositivos para ignorar a detecção de jittering"
+
+# ac30149a86ce4b4f8d56dd37f345d60c
+# be3d97c9406c43b98c4882fc4cec5b82
+#: ../../../kivy/config.py:docstring of kivy.config:59
+msgid "List of regions where new touches are ignored. This configuration token can be used to resolve hotspot problems with DIY hardware. The format of the list must be::"
+msgstr ""
+"Lista de regiões onde novos toques são ignorados. Esse token de configuração "
+"pode ser usado para resolver problemas comuns com hardware DIY. O formato "
+"da lista deve ser::"
+
+# 29a9d1befb634e3f88a1d407734cb4ea
+# 7a02229d83304c4e801e5126d7e23a3a
+#: ../../../kivy/config.py:docstring of kivy.config:65
+msgid "All the values must be inside 0 - 1 range."
+msgstr "Todos os valores devem ser entre 0-1"
+
+# 7891a750763f4192bbd04732c26c3d12
+# f660403814904cd7990767462ea91e01
+#: ../../../kivy/config.py:docstring of kivy.config:70
+msgid "Maximum FPS allowed."
+msgstr "FPS máximo permitido."
+
+# 48e54a346bac4348b35e288def13e72f
+# be96624b0e6b49f8aec88318ad9fd7dc
+#: ../../../kivy/config.py:docstring of kivy.config:72
+msgid "Activate fullscreen. If set to `1`, the fullscreen will use a resolution of `width` times `height` pixels. If set to `auto`, the fullscreen will use your current display's resolution instead. This is most likely what you want. If you want to place the window in another display, use `fake` and adjust `width`, `height`, `top` and `left`."
+msgstr ""
+"Ativa a tela cheia. Se definido para `1`, a tela cheia vai usar uma "
+"resolução de `largura`  vezes `altura` em pixels. Se definido como `auto`, a "
+"tela cheia vai usar a resolução do seu monitor atual em vez disso. É mais "
+"provávelmente o que você quer. Se você deseja colocar a janela no outro "
+"monitor, use `falso` e ajuste a largura, altura, topo e esquerdo."
+
+# 2db46e68d43c451cbce991db72ea1f35
+#: ../../../kivy/config.py:docstring of kivy.config:79
+msgid "Width of the :class:`~kivy.core.window.Window`, not used if in `auto fullscreen`"
+msgstr ""
+
+# 5e93d72184c0402ead74101e71675060
+#: ../../../kivy/config.py:docstring of kivy.config:82
+msgid "Height of the :class:`~kivy.core.window.Window`, not used if in `auto fullscreen`"
+msgstr ""
+
+# 455f898330dc4ff4ba0599e8da2ac715
+#: ../../../kivy/config.py:docstring of kivy.config:85
+msgid "Select the FBO backend to use."
+msgstr ""
+
+# 8478609af01f442fada9b966a5cd5424
+#: ../../../kivy/config.py:docstring of kivy.config:87
+msgid "Show the cursor on the screen"
+msgstr ""
+
+# e5ff15356ebf49629e7a3f7a71206eb8
+#: ../../../kivy/config.py:docstring of kivy.config:89
+msgid "Position of the window on your display. If `auto` is used, you have no control about the initial position: `top` and `left` are ignored."
+msgstr ""
+
+# 90fd9aa54f4b44339d2c108656329e43
+#: ../../../kivy/config.py:docstring of kivy.config:92
+msgid "Top position of the :class:`~kivy.core.window.Window`"
+msgstr ""
+
+# 1fa1e74f7a38493a8869729ea50389ea
+#: ../../../kivy/config.py:docstring of kivy.config:94
+msgid "Left position of the :class:`~kivy.core.window.Window`"
+msgstr ""
+
+# e987d1e2ab494d019f80c636027be676
+#: ../../../kivy/config.py:docstring of kivy.config:96
+msgid "Path of the window icon. Use this if you want to replace the default pygame icon."
+msgstr ""
+
+# d62cd33df5744c6893aae7df3e232ef1
+#: ../../../kivy/config.py:docstring of kivy.config:99
+msgid "Rotation of the :class:`~kivy.core.window.Window`"
+msgstr ""
+
+# 317be7e344784153bccdd6918f7f21f5
+#: ../../../kivy/config.py:docstring of kivy.config:104
+msgid "Input section is particular. You can create new input device with this syntax::"
+msgstr ""
+
+# f80c3eaf2b944a5da9fcb69b95e9f5d2
+#: ../../../kivy/config.py:docstring of kivy.config:116
+msgid "Check all the providers in kivy.input.providers for the syntax to use inside the configuration file."
+msgstr ""
+
+# 327f84b7f9964b7f8a62260cef100b38
+#: ../../../kivy/config.py:docstring of kivy.config:122
+msgid "Default value of :data:`~kivy.uix.scrollview.Scrollview.scroll_distance` property in :class:`~kivy.uix.scrollview.Scrollview` widget. Check the widget documentation for more information."
+msgstr ""
+
+# 9be1a4fd6e2d489ea2e5e9c08728aec9
+#: ../../../kivy/config.py:docstring of kivy.config:127
+msgid "Default value of :data:`~kivy.uix.scrollview.Scrollview.scroll_friction` property in :class:`~kivy.uix.scrollview.Scrollview` widget. Check the widget documentation for more information."
+msgstr ""
+
+# e9f42057f127401f9db551e4c1a40848
+#: ../../../kivy/config.py:docstring of kivy.config:132
+msgid "Default value of :data:`~kivy.uix.scrollview.Scrollview.scroll_timeout` property in :class:`~kivy.uix.scrollview.Scrollview` widget. Check the widget documentation for more information."
+msgstr ""
+
+# d2c6d792df584a56a3d1b1ab97640286
+#: ../../../kivy/config.py:docstring of kivy.config:137
+msgid "Type of the keyboard to use. If set to `real`, no virtual keyboard will be shown on the screen. You will have to use your hardware keyboard to enter text."
+msgstr ""
+
+# da64022aac0f4b6ca490ddc46b8929a9
+#: ../../../kivy/config.py:docstring of kivy.config:143
+msgid "You can activate modules with this syntax::"
+msgstr ""
+
+# 89f0716f9d3040f593f03a5c8526e78f
+#: ../../../kivy/config.py:docstring of kivy.config:147
+msgid "Anything after the = will be passed to the module as arguments. Check the specific module's documentation for a list of accepted arguments."
+msgstr ""
+
+# 9301ae7c37064e6eac03ee3efd766808
+# dc3047c182844ef99d4599f7852a1957
+#: ../../../kivy/config.py:docstring of kivy.config.Config:1
+#, fuzzy
+msgid "Kivy configuration object"
+msgstr "Objeto de configuração"
+
+# 54f441313a0d41c0b5d0efae904ad22c
+#: ../../<autodoc>:1
+msgid "Bases: :class:`ConfigParser.ConfigParser`"
+msgstr ""
+
+# 7fc8d61fd887423aa240313d54e6f1d5
+#: ../../../kivy/config.py:docstring of kivy.config.ConfigParser:1
+msgid "Enhanced ConfigParser class, that support the possibility of add default sections and default values."
+msgstr ""
+
+# 59c48e41bbf544be9308855a7d1123a8
+#: ../../../kivy/config.py:docstring of kivy.config.ConfigParser.adddefaultsection:1
+msgid "Add a section if the section is missing."
+msgstr ""
+
+# d6909c41e07c47ce9bcd5a4a24388265
+#: ../../../kivy/config.py:docstring of kivy.config.ConfigParser.getdefault:1
+msgid "Get an option. If not found, it will return the defaultvalue"
+msgstr ""
+
+# 45eea615e1a04dd19bda798833f00d37
+#: ../../../kivy/config.py:docstring of kivy.config.ConfigParser.read:1
+msgid "Read only one filename. In contrary of the original ConfigParser of Python, this one is able to read only one file at time. The latest readed file will be used for the :meth:`write` method."
+msgstr ""
+
+# 80e93ed991344aff876356cdb66a2f09
+#: ../../../kivy/config.py:docstring of kivy.config.ConfigParser.setdefault:1
+msgid "Set the default value on a particular option"
+msgstr ""
+
+# 86792698cb774826a84c5bfdadab20fa
+#: ../../../kivy/config.py:docstring of kivy.config.ConfigParser.setdefaults:1
+msgid "Set lot of key/values in one section at the same time"
+msgstr ""
+
+# ed59241303df48a49ab3754a30caa399
+#: ../../../kivy/config.py:docstring of kivy.config.ConfigParser.write:1
+msgid "Write the configuration to the latest opened file with :meth:`read` method."
+msgstr ""
+
+# 6954b7bb3fb0418190c8b7abfc158975
+#: ../../../kivy/config.py:docstring of kivy.config.ConfigParser.write:4
+msgid "Return True if the write have succeded."
+msgstr ""

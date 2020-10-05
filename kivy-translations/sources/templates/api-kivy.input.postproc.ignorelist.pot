@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.9-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-24 12:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../sources/api-kivy.input.postproc.ignorelist.rst:3
+# b13e0106eef94b04a85a0f5a36db26c4
+msgid "Ignore list"
+msgstr ""
+
+#: ../../../kivy/input/postproc/ignorelist.py:docstring of kivy.input.postproc.ignorelist:2
+# 678d6b36df7844e0ba9a28f137896e32
+msgid "Ignore touch in some part on screen"
+msgstr ""
+
+#: ../../<autodoc>:1
+# 22fe8dc8659f42e79b25ae087df480a0
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: ../../../kivy/input/postproc/ignorelist.py:docstring of kivy.input.postproc.ignorelist.InputPostprocIgnoreList:1
+# 73561f9eea4e427fb29f864a1b7607f3
+msgid "InputPostprocIgnoreList is a post-processor who remove touch in ignore list. Ignore list can be configured in the Kivy config file ::"
+msgstr ""
+
+#: ../../../kivy/input/postproc/ignorelist.py:docstring of kivy.input.postproc.ignorelist.InputPostprocIgnoreList:8
+# b0d71687d8c845348d9fe69daddef04f
+msgid "Ignore list coordinate are in 0-1, not in the screen width/height."
+msgstr ""
+

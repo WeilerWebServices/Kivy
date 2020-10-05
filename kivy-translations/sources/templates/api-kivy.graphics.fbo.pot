@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.9-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-24 12:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../sources/api-kivy.graphics.fbo.rst:3
+# b2cb0676c7384eedbe41b3ac7027d4f1
+msgid "Framebuffer"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.fbo:2
+# 1c892e2e0d0c4bcbb1cc98858b18b49a
+msgid "Fbo is like an offscreen window. You can activate the fbo for rendering into a texture, and use your fbo as a texture for another drawing."
+msgstr ""
+
+#: ../../docstring of kivy.graphics.fbo:5
+# c5b4b09c84434a6d8b69f8fcd55cdd1e
+msgid "Fbo act as a :class:`kivy.graphics.instructions.Canvas`."
+msgstr ""
+
+#: ../../docstring of kivy.graphics.fbo:7
+# 88d572c730c14b50b8d68af0272e4a88
+msgid "Exemple of using an fbo for some color rectangles ::"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.fbo:35
+# 1b14a9ca85ce462ebd3796cf70c8b91c
+msgid "If you change anything in the `self.fbo` object, it will be automaticly updated, and canvas where the fbo is putted will be automaticly updated too."
+msgstr ""
+
+#: ../../<autodoc>:1
+# f08a29cc8e31417e892759c03110eccf
+msgid "Bases: :class:`kivy.graphics.instructions.RenderContext`"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.fbo.Fbo:1
+# 5c85d8cbb0de4ff88f7e80cf71b26539
+msgid "Fbo class for wrapping the OpenGL Framebuffer extension. The Fbo support \"with\" statement."
+msgstr ""
+
+#: ../../docstring of kivy.graphics.fbo.Fbo:6
+# 1b856cb7762a4979839e0233af1ee81d
+msgid "Define the default color for clearing the framebuffer"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.fbo.Fbo:8
+# 34b876071fe34ba08b076695604242e8
+msgid "Default size of the framebuffer"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.fbo.Fbo:10
+# 07a2fecf237942ca86a660bbe6cb4ec8
+msgid "If True, the OpenGL viewport will be set to the framebuffer size, and will be automatically restored when the framebuffer released."
+msgstr ""
+
+#: ../../docstring of kivy.graphics.fbo.Fbo:13
+# 315be703e0c045b19c147b0710df8f61
+msgid "If True, the framebuffer will be allocated with a Z buffer."
+msgstr ""
+
+#: ../../docstring of kivy.graphics.fbo.Fbo:15
+# 73fb5bf7ef7b4c3e9d1e3e7306c714bd
+msgid "If None, a default texture will be created."
+msgstr ""
+
+#: ../../docstring of kivy.graphics.fbo.Fbo.bind:1
+# 6473532cb3ba44e3899c1607952c0d69
+msgid "`Bind` mean that you enable the Framebuffer, and all the drawing operations will act inside the Framebuffer, until :func:`release` is called."
+msgstr ""
+
+#: ../../docstring of kivy.graphics.fbo.Fbo.bind:5
+# 56ccd768d15a497ab99001baf09b1e25
+msgid "The bind/release operation are automatically done when you add graphics object in it. But if you want to manipulate a Framebuffer yourself, you can use it like this::"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.fbo.Fbo.clear_color:1
+# 2c89db705cb84b88a4a0808350e74747
+msgid "Clear color in (red, green, blue, alpha) format."
+msgstr ""
+
+#: ../../docstring of kivy.graphics.fbo.Fbo.size:1
+# 07ccd7faf2104c84a5b1644a607f6592
+msgid "Size of the framebuffer, in (width, height) format."
+msgstr ""
+
+#: ../../docstring of kivy.graphics.fbo.Fbo.size:3
+# 079342ed7cba4f6889581228e67bc533
+msgid "If you change the size, the framebuffer content will be lost."
+msgstr ""
+
+#: ../../docstring of kivy.graphics.fbo.Fbo.texture:1
+# 7fbf5e339c4b4a188c43b9199fabfbfd
+msgid "Return the framebuffer texture"
+msgstr ""
+

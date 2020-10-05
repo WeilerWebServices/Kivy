@@ -1,0 +1,247 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 16:54\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# f3b276072d7d4d2fa6519b5e052fdd47
+#: ../../sources/api-kivy.uix.scatter.rst:3
+msgid "Scatter"
+msgstr ""
+
+# bfe24dfcdb1944ce87d368da8fe15b8d
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter:2
+msgid ":class:`Scatter` is used to build interactive widgets that can be translated, rotated and scaled with two or more fingers on a multitouch system."
+msgstr ""
+
+# 3ef9c4515d2a41d68cacda66bbbe75ed
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter:6
+msgid "Usage"
+msgstr ""
+
+# 2e926edef2124832a558c5c1d1fdb8a3
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter:8
+msgid "By default, the widget doesn't have any graphical representation, it is a  container only. The idea is to combine Scatter with another widget, for example :class:`~kivy.uix.image.Image` ::"
+msgstr ""
+
+# 0bae6e8a5176478ca90ee1b234705e4a
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter:17
+msgid "Control interactions"
+msgstr ""
+
+# ef6783844eda43e68040424dec2cd963
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter:19
+msgid "By default, all interactions are enabled. You can selectively disable  them using the do_ properties."
+msgstr ""
+
+# 0d82a6e881c14ef1abb14fff3bb5fa7e
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter:22
+msgid "Disable rotation ::"
+msgstr ""
+
+# 35b648fecaaf4b74bc5d65bb2628b93f
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter:26
+msgid "Allow only translation ::"
+msgstr ""
+
+# 23c4e175dd484b42bf343fac154f39e3
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter:30
+msgid "Allow only translation on x axis ::"
+msgstr ""
+
+# 639dc2fbde3a42bbbac4574882990ec6
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter:37
+msgid "Automatic bring to front"
+msgstr ""
+
+# 09c234c40d2a4d519edd792b3f9e1e3c
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter:39
+msgid "If the :data:`Scatter.auto_bring_to_front` property is True, the scatter  widget will be removed and re-added to the parent when it is touched  (brought to front, above all other widgets). This is useful when you are  manipulating several scatter widgets and don't want the active to be  partially hidden."
+msgstr ""
+
+# 0e3d42201e7b4ada8639c400ea4b004f
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter:46
+msgid "Scale limitation"
+msgstr ""
+
+# 61a3d6b87ca34a33a64421de54b63fd7
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter:48
+msgid "We are using a 32-bit matrix in double representation. That means we have a limit for scaling, you cannot do infinite scale down/up with our implementation. Generally, you don't hit the minimum scale (because you don't see it on the screen), but the maximum scale is 9.99506983235e+19 (2^66)"
+msgstr ""
+
+# 469a901948a84d96902dadda842931d6
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter:53
+msgid "You can also limit the minimum and maximum scale allowed. ::"
+msgstr ""
+
+# 8459e43f5dbb4d238887df2bd4ad8cfe
+#: ../../<autodoc>:1
+msgid "Bases: :class:`kivy.uix.widget.Widget`"
+msgstr ""
+
+# ce87ffd16fe3498283aad9f928cdf027
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter:1
+msgid "Scatter class. See module documentation for more information."
+msgstr ""
+
+# 1c38868cf37e4b21aa8bbd7b29200201
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.apply_transform:1
+msgid "Transforms scatter by trans (on top of its current transformation state)"
+msgstr ""
+
+# 7901963e574545b7a0a84a8304579359
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.apply_transform:5
+msgid "Transformation to be applied to the scatter widget"
+msgstr ""
+
+# 2a2c9ef6baf04f8483a5137a9b47d1df
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.apply_transform:7
+msgid "The point to use as the origin of the transformation (uses local widget space)"
+msgstr ""
+
+# e60b0bad1e7748e28a7d7b699957daa3
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.apply_transform:10
+msgid "If true the transform matrix is post multiplied (as if applied before the current transform)"
+msgstr ""
+
+# f4220f78012f47979573fe5e91c8de23
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.auto_bring_to_front:1
+msgid "If True, the widget will be automatically pushed on the top of parent widget list for drawing."
+msgstr ""
+
+# 16ab59708faf4831b25f0e56ac7055c8
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.auto_bring_to_front:4
+msgid ":data:`auto_bring_to_front` is a :class:`~kivy.properties.BooleanProperty`, default to True."
+msgstr ""
+
+# 5c1684844a23451c961dea16247ed542
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.bbox:1
+msgid "Bounding box of the widget in parent space ::"
+msgstr ""
+
+# 9a7942761510416b97777c1a3d012a06
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.bbox:6
+msgid ":data:`bbox` is a :class:`~kivy.properties.AliasProperty`."
+msgstr ""
+
+# ca9775c35ebf4cc5b221fceca5f9a6f1
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.do_rotation:1
+msgid "Allow rotation"
+msgstr ""
+
+# e8e111b85f63474886c0bc3895b6f1c6
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.do_rotation:3
+msgid ":data:`do_rotation` is a :class:`~kivy.properties.BooleanProperty`, default to True."
+msgstr ""
+
+# a3c95575c39e431aa9b91ad226643c68
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.do_scale:1
+msgid "Allow scaling"
+msgstr ""
+
+# 69d4b9e5a6f94589b53ad64079f24c05
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.do_scale:3
+msgid ":data:`do_scale` is a :class:`~kivy.properties.BooleanProperty`, default to True."
+msgstr ""
+
+# b1e574b8bfb14dcab735069d2db0bc1b
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.do_translation:1
+msgid "Allow translation on X or Y axis"
+msgstr ""
+
+# 7acfbac922aa414390375f8ce6854d33
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.do_translation:3
+msgid ":data:`do_translation` is a :class:`~kivy.properties.AliasProperty` of (:data:`do_translation_x` + :data:`do_translation_y`)"
+msgstr ""
+
+# 3544f2591c964cd58e39f00d36df2ad8
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.do_translation_x:1
+msgid "Allow translation on X axis"
+msgstr ""
+
+# c37c37bed7a04003a7b4739971562462
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.do_translation_x:3
+msgid ":data:`do_translation_x` is a :class:`~kivy.properties.BooleanProperty`, default to True."
+msgstr ""
+
+# 0aafb19b10db4633ba451ade9bd0a19a
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.do_translation_y:1
+msgid "Allow translation on Y axis"
+msgstr ""
+
+# 1987c61b417e4377b55a8dd292b44617
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.do_translation_y:3
+msgid ":data:`do_translation_y` is a :class:`~kivy.properties.BooleanProperty`, default to True."
+msgstr ""
+
+# b8a9d21617074f109d710dd828c8c8a4
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.rotation:1
+msgid "Rotation value of the scatter"
+msgstr ""
+
+# 08ce0518a8664b61965ab29e5558fb0c
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.rotation:3
+msgid ":data:`rotation` is a :class:`~kivy.properties.AliasProperty`."
+msgstr ""
+
+# b8c95b3eb1fa40ce80e05155b1f3040e
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.scale:1
+msgid "Scale value of the scatter"
+msgstr ""
+
+# 312d2ff21a184d99aa4b0375519994d0
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.scale:3
+msgid ":data:`scale` is a :class:`~kivy.properties.AliasProperty`."
+msgstr ""
+
+# eab3a4879f0f4577804ef99b216f5d63
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.scale_max:1
+msgid "Maximum scaling factor allowed"
+msgstr ""
+
+# c5f2b6b45f71424fa429be445896d639
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.scale_max:3
+msgid ":data:`scale_max` is a :class:`~kivy.properties.NumericProperty`, default to 1e20"
+msgstr ""
+
+# 61592d4912054262a0931d441c4b4782
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.scale_min:1
+msgid "Minimum scaling factor allowed"
+msgstr ""
+
+# d8ec728f2084455b9e6cac9ce4902443
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.scale_min:3
+msgid ":data:`scale_min` is a :class:`~kivy.properties.NumericProperty`, default to 0.01"
+msgstr ""
+
+# d25461022592478ab2826cb47200e3aa
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.transform:1
+msgid "Transformation matrix"
+msgstr ""
+
+# 85c52a4de6f0487ca51ef0c328ee6964
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.transform:3
+msgid ":data:`transform` is a :class:`~kivy.properties.ObjectProperty`, default to the identity matrix."
+msgstr ""
+
+# b87555745a8740909970e9c008dd7e96
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.transform_inv:1
+msgid "Inverse of the transformation matrix"
+msgstr ""
+
+# 3fbb893d2fe3499f94ec16468659f0cb
+#: ../../../kivy/uix/scatter.py:docstring of kivy.uix.scatter.Scatter.transform_inv:3
+msgid ":data:`transform_inv` is a :class:`~kivy.properties.ObjectProperty`, default to the identity matrix."
+msgstr ""

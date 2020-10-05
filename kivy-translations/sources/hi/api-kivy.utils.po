@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 16:54\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# 28eacf25aaca43519c8240f3a4e5b57b
+#: ../../sources/api-kivy.utils.rst:3
+msgid "Utils"
+msgstr ""
+
+# 15523ddf5b6846c19adef485dc9e305b
+#: ../../../kivy/utils.py:docstring of kivy.utils.intersection:1
+msgid "Return intersection between 2 list"
+msgstr ""
+
+# ad705397c4fc46f1971906411a7604da
+#: ../../../kivy/utils.py:docstring of kivy.utils.difference:1
+msgid "Return difference between 2 list"
+msgstr ""
+
+# f75147a64abc40e3a056639d4195e7f3
+#: ../../../kivy/utils.py:docstring of kivy.utils.strtotuple:1
+msgid "Convert a tuple string into tuple, with some security check. Designed to be used with eval() function ::"
+msgstr ""
+
+# 878cf8485efc4c94b908b54f5bb68e5c
+#: ../../../kivy/utils.py:docstring of kivy.utils.get_color_from_hex:1
+msgid "Transform from hex string color to kivy color"
+msgstr ""
+
+# 29f81c5158ba4487a844c5e7c6db4ca8
+#: ../../../kivy/utils.py:docstring of kivy.utils.get_random_color:1
+msgid "Returns a random color (4 tuple)"
+msgstr ""
+
+# 9064e8205f3f4f6bb88978c91f6362d3
+#: ../../../kivy/utils.py:docstring of kivy.utils.get_random_color:5
+msgid "if alpha == 'random' a random alpha value is generated"
+msgstr ""
+
+# 401b5f9b180a43f5b95f74b5fa101fee
+#: ../../../kivy/utils.py:docstring of kivy.utils.is_color_transparent:1
+msgid "Return true if alpha channel is 0"
+msgstr ""
+
+# 0bb97ce571c44c939da97e9b636690b2
+#: ../../../kivy/utils.py:docstring of kivy.utils.boundary:1
+msgid "Limit a value between a minvalue and maxvalue"
+msgstr ""
+
+# 554c2459535f427ab6627211a54383f7
+#: ../../../kivy/utils.py:docstring of kivy.utils.deprecated:1
+msgid "This is a decorator which can be used to mark functions as deprecated. It will result in a warning being emitted the first time the function is used."
+msgstr ""
+
+# bd84062fe73c4ade93576112017f7cff
+#: ../../<autodoc>:1
+msgid "Bases: :class:`list`"
+msgstr ""
+
+# c6dc6cebabdc4e0aa074445d137addb5
+#: ../../../kivy/utils.py:docstring of kivy.utils.SafeList:1
+msgid "List with clear() method"
+msgstr ""
+
+# 34c9e554fe4a45b2b2939d0256f115ca
+#: ../../../kivy/utils.py:docstring of kivy.utils.SafeList:4
+msgid "Usage of iterate() function will decrease your performance."
+msgstr ""
+
+# 48114b514652455b965ac583295df7b9
+#: ../../../kivy/utils.py:docstring of kivy.utils.interpolate:1
+msgid "Interpolate a value to another. Can be useful to smooth some transition. For example ::"
+msgstr ""
+
+# 6714c402b81a420daf41032410ea801c
+#: ../../../kivy/utils.py:docstring of kivy.utils.interpolate:11
+msgid "This interpolation work only on list/tuple/double with the same dimension. No test are done if the dimension is not the same."
+msgstr ""
+
+# 7406a9b41cd64ef1922a940e4de54d06
+#: ../../<autodoc>:1
+msgid "Bases: :class:`dict`"
+msgstr ""
+
+# 041acb8553cc4cbc8dd79f730c6c9cdc
+#: ../../../kivy/utils.py:docstring of kivy.utils.QueryDict:1
+msgid "QueryDict is a dict() that can be queried with dot."
+msgstr ""
+
+# a13723cb2efd4d55933d966a0b1d49b2
+#: ../../../kivy/utils.py:docstring of kivy.utils.platform:1
+msgid "Return the version of the current platform. This will return one of: win, linux, android, macosx, ios, unknown"
+msgstr ""
+
+# 10584681a7e348eab0a714915f5a3895
+#: ../../../kivy/utils.py:docstring of kivy.utils.platform:6
+msgid "ios is not currently reported."
+msgstr ""

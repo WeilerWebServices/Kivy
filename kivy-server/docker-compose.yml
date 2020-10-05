@@ -1,0 +1,169 @@
+version: '2.4'
+services:
+  nginx:
+    init: true
+    build:
+      context: nginx
+    volumes:
+      - tls_data:/web/tls/data
+      - kivy_doc:/web/doc:ro
+      - downloads:/web/downloads:ro
+      - blog_content:/web/blog
+    volumes_from:
+      - site:ro
+      - piwik:ro
+      # - adminer:ro
+    links:
+      - blog
+      - piwik
+      - mcnotify
+      # - adminer
+    environment:
+      - BOOTSTRAP_TLS=false
+    ports:
+      - 80:80
+      - 443:443
+      - 5000:5000
+    logging: &logging
+      driver: "json-file"
+      options:
+        max-size: "1m"
+        max-file: "10"
+
+  site:
+    init: true
+    build:
+      context: site
+    volumes:
+      - /web/site
+    logging:
+      <<: *logging
+
+  docs:
+    init: true
+    build:
+      context: .
+      dockerfile: docs/Dockerfile
+    volumes:
+      - kivy_doc:/web/doc
+    ports:
+      - 2457:2457
+    logging:
+      <<: *logging
+
+  downloads:
+    init: true
+    build:
+      context: .
+      dockerfile: downloads/Dockerfile
+    volumes:
+      - downloads:/web/downloads
+    ports:
+      - 2458:2458
+    environment:
+      - BACKUP_MODE=backup  # none, backup, restore
+      - BASE_BACKUP_CRON=0 5 * * *  # At 05:00.
+    env_file:
+      - .env/envfile/downloads-s3-backup
+    logging:
+      <<: *logging
+
+  blog:
+    init: true
+    build:
+      context: blog
+    volumes:
+      - blog_content:/web/blog
+    links:
+      - blog_mysql
+    environment:
+      - BACKUP_MODE=backup  # none, backup, restore
+      - BASE_BACKUP_CRON=0 6 * * Sun  # At 06:00 on Sun.
+    env_file:
+      - .env/envfile/blog-s3-backup
+    logging:
+      <<: *logging
+
+  blog_mysql:
+    init: true
+    build:
+      context: mysql
+    volumes:
+      - blog_mysql_data:/var/lib/mysql
+    environment:
+      - BACKUP_MODE=backup  # none, backup, restore
+      - BASE_BACKUP_CRON=0 6 * * Sun  # At 06:00 on Sun.
+    env_file:
+      - .env/envfile/blog-mysql
+      - .env/envfile/blog-s3-backup
+    logging:
+      <<: *logging
+
+  piwik:
+    init: true
+    build:
+      context: piwik
+    links:
+      - piwik_mysql
+    logging:
+      <<: *logging
+
+  piwik_mysql:
+    init: true
+    build:
+      context: mysql
+    volumes:
+      - piwik_mysql_data:/var/lib/mysql
+    environment:
+      - BACKUP_MODE=backup  # none, backup, restore
+      - BASE_BACKUP_CRON=0 7 * * Sun  # At 07:00 on Sun.
+    env_file:
+      - .env/envfile/piwik-mysql
+      - .env/envfile/piwik-s3-backup
+    logging:
+      <<: *logging
+
+  ci:
+    init: true
+    build:
+      context: .
+      dockerfile: ci/Dockerfile
+      args:
+        APPVEYOR_SCHEDULE: "0 5 * * *"  # At 05:00
+    env_file:
+      - .env/envfile/ci
+    logging:
+      <<: *logging
+
+  mcnotify:
+    init: true
+    build:
+      context: mcnotify
+    environment:
+      - NODE_ENV=production
+      - WEBHOOK_PATH=/mcnotify
+      - DISABLE_STATS=true
+    env_file:
+      - .env/envfile/mcnotify
+    logging:
+      <<: *logging
+
+  # adminer:
+  #   init: true
+  #   build:
+  #     context: adminer
+  #   volumes:
+  #     - /adminer
+  #   links:
+  #     - blog_mysql
+  #     - piwik_mysql
+  #   logging:
+  #     <<: *logging
+
+volumes:
+  blog_content:
+  blog_mysql_data:
+  piwik_mysql_data:
+  downloads:
+  kivy_doc:
+  tls_data:

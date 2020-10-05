@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 16:54\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# 9fa454e8b09f4bda829a7c83d3ade905
+#: ../../sources/index.rst:4
+msgid "Welcome to Kivy"
+msgstr ""
+
+# 189984a56a224169be12c9b81417f145
+#: ../../sources/index.rst:6
+msgid "Welcome to Kivy's documentation. Kivy is an open source software library for rapid development of applications equipped with novel user interfaces, such as multi-touch apps."
+msgstr ""
+
+# b7b6b0255c27478a97731324d678b1f3
+#: ../../sources/index.rst:10
+msgid "You are probably wondering why you'd be interested in using Kivy. There is a document outlining our :ref:`philosophy` that we encourage you to read."
+msgstr ""
+
+# 4484d49729c24664a965b1dfdb393d7a
+#: ../../sources/index.rst:13
+msgid "We recommend that you get started with :ref:`installation` and then head over to the :ref:`quickstart` document. Besides the quickstart, there is also a more detailed :ref:`architecture`."
+msgstr ""
+
+# 51b3d35eb9324508a105fbea9dee6a57
+#: ../../sources/index.rst:17
+msgid "If you want to contribute to Kivy, make sure to read :ref:`contributing`. If your concern isn't addressed in the documentation, feel free to :ref:`contact`."
+msgstr ""
+
+# b72be15cf2d34b3a98b85fc2ce6e369d
+#: ../../sources/contents.rst.inc:2
+msgid "User's Guide"
+msgstr ""
+
+# e631c1bb137743259ed47d01debf2189
+#: ../../sources/contents.rst.inc:4
+msgid "This part of the documentation explains the basic ideas behind Kivy's design and why you'd want to use it. It goes on with a discussion of the architecture and shows you how to create stunning applications in short time using the framework."
+msgstr ""
+
+# a45a31c487464e77a715573d6b8187e8
+#: ../../sources/api-index.rst:2
+msgid "API Reference"
+msgstr ""
+
+# ea421d1468d44295944612f790ecf38c
+#: ../../sources/api-index.rst:4
+msgid "The API reference is a lexicographic list of all the different classes, methods and features that Kivy offers."
+msgstr ""
+
+# 4badcffd1706472cbd31a62c85c6b610
+#: ../../sources/index.rst:24
+msgid "Appendix"
+msgstr ""
+
+# e14a717db0a243fdbb9f1a1af6bf42db
+#: ../../sources/index.rst:26
+msgid "The appendix contains licensing information and an enumeration of all the different module, class, function and variable names available in Kivy."
+msgstr ""
+
+# 35178fc501c042f6be2fdafbe2ba341b
+#: ../../sources/index.rst:30
+msgid "License"
+msgstr ""
+
+# 8dcf78df152649c1baff40b98658933c
+#: ../../sources/index.rst:32
+msgid "Kivy is released under the terms of the GNU LGPL Version 3. You should have received a copy of the LGPL alongside your Kivy distribution. See the file COPYING in the Kivy root folder. An online version of the license can be found at http://www.gnu.org/licenses/lgpl-3.0.txt"
+msgstr ""
+
+# 69adf058ce1a4e78bfb901bfd3552e26
+#: ../../sources/index.rst:38
+msgid "In a nutshell the license allows you to use Kivy in your own projects, regardless if they are open source, closed source, commercial or free. The one thing the license does enforce is that if you make changes to the Kivy sourcecode **itself**, you have to share those changes with us. For a more thorough legal explanation of the terms and conditions, please refer to the documents listed above."
+msgstr ""
+
+# 441bfdd5bed64364b150665f0c13319f
+#: ../../sources/index.rst:45
+msgid "For a list of authors, please see the file AUTHORS that accompanies the Kivy source code distribution (next to COPYING)."
+msgstr ""
+
+# 2b205b2c6fef491fb19414aa4c8572ea
+#: ../../sources/index.rst:49
+msgid "Kivy -- Copyright 2011, The Kivy Authors. All rights reserved."
+msgstr ""

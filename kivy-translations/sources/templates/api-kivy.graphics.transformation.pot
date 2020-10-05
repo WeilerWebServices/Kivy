@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.9-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-24 12:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../sources/api-kivy.graphics.transformation.rst:3
+# 078374dbdc4a4e689624ab5cd23566a2
+msgid "Transformation"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.transformation:2
+# e3fbe6212c364cc9816c44dd190eee5d
+msgid "This module contain a Matrix class, used for our Graphics calculation. We are supporting:"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.transformation:5
+# 8622a2865ea54cf881768cfa1f109a6d
+msgid "rotation, translation, scaling matrix"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.transformation:6
+# c5e85bde205b469eaa8978e2d5da9ed1
+msgid "multiply matrix"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.transformation:7
+# e30241efd0cc4e80bb89f9c00ef971c2
+msgid "create clip matrix (with or without perspective)"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.transformation:8
+# d424ccf35cb24f6a8a5841812fd8bc49
+msgid "transform 3d touch on a matrix"
+msgstr ""
+
+#: ../../<autodoc>:1
+# 129ac31205894c39b5d3cf50e092da37
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.transformation.Matrix:1
+# 9a833c0178034f5da06dc9f7c6ded108
+msgid "Optimized matrix class for OpenGL ::"
+msgstr ""
+
+#: ../../docstring of kivy.graphics.transformation.Matrix.multiply:1
+# 17fdbec0405e41e8abbb50245a43924a
+msgid "I.e., we premultiply the given matrix to the current matrix and return the result (not inplace)::"
+msgstr ""
+

@@ -1,0 +1,642 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.9-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-24 12:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../sources/installation/installation.rst:4
+# d2ac3210211d48d49a5fbb8a8ee1e2b1
+msgid "Installation"
+msgstr ""
+
+#: ../../sources/installation/installation.rst:6
+# 9a0ba831a6e74940aabf5837ac5d1694
+msgid "We try not to reinvent the wheel but bring something innovative to the market. As a consequence, we're focused on our own code and use already existing, high-qualitative third-party libraries where possible. For the rich set of features that Kivy offers, several other libraries are required. If you do not use a specific feature (e.g. video playback) you don't need the corresponding dependency, however. That said, there is one dependency that Kivy **does** require: `Cython <http://cython.org>`_."
+msgstr ""
+
+#: ../../sources/installation/installation.rst:15
+# a63859d66da645f9acd8821d90fa1ab2
+msgid "In addition, you need a `Python <http://python.org/>`_ 2.x (**not**  3.x) interpreter. If you want to enable features like windowing (i.e., open a Window), audio/video playback or spelling correction, additional dependencies must be available. For these, we recommend `Pygame <http://pygame.org>`_, `Gst-Python <http://www.gstreamer.net/modules/gst-python.html>`_ and `Enchant <http://www.rfk.id.au/software/pyenchant/>`_, respectively."
+msgstr ""
+
+#: ../../sources/installation/installation.rst:22
+# 71af53b8fdf04ee088f3bbdb304e09d5
+msgid "Other optional libraries (mutually interchangeable) are:"
+msgstr ""
+
+#: ../../sources/installation/installation.rst:24
+# c5e5869f1a5a4847946ed5d8a6dfb09b
+msgid "`OpenCV 2.0 <http://sourceforge.net/projects/opencvlibrary/>`_ -- Camera input."
+msgstr ""
+
+#: ../../sources/installation/installation.rst:25
+# 038c17f651864099bc2d75b48ed66cdf
+msgid "`PIL <http://www.pythonware.com/products/pil/index.htm>`_ -- Image and text display."
+msgstr ""
+
+#: ../../sources/installation/installation.rst:26
+# 19155d1f4ada49488e37ce4c02d10705
+msgid "`PyCairo <http://www.cairographics.org/pycairo/>`_ -- Text display."
+msgstr ""
+
+#: ../../sources/installation/installation.rst:27
+# ac81e7041182448697d28b583b1f97f9
+msgid "`PyEnchant <http://www.rfk.id.au/software/pyenchant/>`_ -- Spelling correction."
+msgstr ""
+
+#: ../../sources/installation/installation.rst:28
+# 750de03c61d14909a532bc4afcad55d8
+msgid "`Pygame <http://www.pygame.org>`_ -- Window creation, image and text display, audio playback."
+msgstr ""
+
+#: ../../sources/installation/installation.rst:29
+# 1a8315e515b94a02b46ff8c1af98019e
+msgid "`PyGST <http://gstreamer.freedesktop.org/ + http://pygstdocs.berlios.de/>`_ -- Audio/video playback and camera input."
+msgstr ""
+
+#: ../../sources/installation/installation.rst:32
+# d69dcfefe04442269ea0a6f3fe4cb11e
+msgid "That said, **DON'T PANIC**!"
+msgstr ""
+
+#: ../../sources/installation/installation.rst:34
+# 58122de36cf7475ab848355b76e322b4
+msgid "We don't ask you to install all those things on your own. Instead, we created nice portable packages that you can use directly since they already contain the necessary packages for your platform. We just want you to know about the alternatives for the defaults and give you an overview about the things Kivy uses internally."
+msgstr ""
+
+#: ../../sources/installation/installation.rst:42
+# 1a9e8c1d48754b76a6870a0183240d20
+msgid "Stable Version"
+msgstr ""
+
+#: ../../sources/installation/installation.rst:44
+# 8c8a4390a92d4c69bbe1e8c3e7274ad1
+msgid "The latest stable version can be found on Kivy's website at http://kivy.org/#download Please refer to the installation instructions for your specific platform:"
+msgstr ""
+
+#: ../../sources/installation/installation.rst:57
+# bc4dae1ae8c742678c74cb37415d2b32
+msgid "Development Version"
+msgstr ""
+
+#: ../../sources/installation/installation.rst:59
+# 09cc2128035640ef8cdba72af4678476
+msgid "The development version is for developers and testers. Note that when running a development version, you're running potentially broken code at your own risk. To use the development version, you will first need to install the dependencies. Afterwards you have to set up Kivy on your computer in a way that allows for easy development. For that, please see our :ref:`contributing` document."
+msgstr ""
+
+#: ../../sources/installation/installation.rst:68
+# deb1beb443e243d78dd7d88855e9d2fa
+msgid "Installing Dependencies"
+msgstr ""
+
+#: ../../sources/installation/installation.rst:70
+# af893cfdebe442f295c59062a8324a10
+msgid "To install Kivy's dependencies, follow the guide below for your platform."
+msgstr ""
+
+#: ../../sources/installation/installation.rst:73
+# 1eafb09a3d71427085519d67c2fcc594
+msgid "Ubuntu"
+msgstr ""
+
+#: ../../sources/installation/installation.rst:75
+# 0f3a47bfd0b64cf6ab361308b4679b61
+msgid "For Ubuntu, simply enter the following command that will install all necessary packages:"
+msgstr ""
+
+#: ../../sources/installation/installation.rst:87
+# 8fa723dad65c4fb8ba528a9f93d602a3
+msgid "Installing Kivy for Development"
+msgstr ""
+
+#: ../../sources/installation/installation.rst:89
+# ce5de9b207ae4798a69a57b2f7c44923
+msgid "Now that you've installed all the required dependencies, it's time to download and compile a development version of Kivy::"
+msgstr ""
+
+#: ../../sources/installation/installation.rst:99
+# e24116fb231e475b8df5ab4327588406
+msgid "If you have the ``make`` command available, you can also use the following shortcut to compile (does the same as the last command)::"
+msgstr ""
+
+#: ../../sources/installation/installation.rst:104
+# 9e807c0b0c1f42cebee8a8351d28f410
+msgid "If you want to modify the Kivy code itself, set up the `PYTHONPATH environment variable <http://docs.python.org/tutorial/modules.html#the-module-search-path>`_ to point at your clone. This way you don't have to install (``setup.py install``) after every tiny modification. Python will instead import Kivy from your clone."
+msgstr ""
+
+#: ../../sources/installation/installation.rst:111
+# e2253ce489104e30aaf8a77b67658635
+msgid "Or, if you don't want to make any changes to Kivy itself, you can also run (as admin, e.g. with sudo)::"
+msgstr ""
+
+#: ../../sources/installation/installation.rst:116
+# 4e4432a2462b4d91af39f03982b45198
+msgid "If you want to contribute code (patches, new features) to the Kivy code base, please read :ref:`contributing`."
+msgstr ""
+
+#: ../../sources/installation/installation.rst:120
+# bfc857875fe245608b0b14a8686e39c3
+msgid "Uninstalling Kivy"
+msgstr ""
+
+#: ../../sources/installation/installation.rst:122
+# 6254beda65d342c08bf540b3f46ca012
+msgid "If you are mixing multiple Kivy installation, you might be confused where is located each Kivy version. Please note that you might need to do it multiple time, if you have multiple kivy version installed into python libraries path. To found your current installed version, you can write in command line::"
+msgstr ""
+
+#: ../../sources/installation/installation.rst:129
+# c373a54bebac4b309f0abcba60758f5d
+msgid "Then, remove that directory recursively."
+msgstr ""
+
+#: ../../sources/installation/installation.rst:131
+# c5f21f177b5f4584962b8d8733cb32da
+msgid "If you have installed Kivy with easy_install on linux, the directory can contain a \"egg\" directory. Remove it as well::"
+msgstr ""
+
+#: ../../sources/installation/installation.rst:138
+# b24f9aebb3da42008d683382affdf201
+msgid "If you have installed with apt-get, do::"
+msgstr ""
+
+#: ../../sources/installation/installation-android.rst:4
+# 6cf29ad74890492c94424b524dab152b
+msgid "Installation on Android"
+msgstr ""
+
+#: ../../sources/installation/installation-android.rst:8
+# 69a3f9f2a5f54c8687688aaa63f5fda3
+msgid "The Android version is not fully supported yet. Check :ref:`android` for more information about the current status."
+msgstr ""
+
+#: ../../sources/installation/installation-android.rst:11
+# 172d97afb7ca46eeb5dc997853d0f375
+msgid "Please note that Kivy is a framework. Installing Kivy itself on your phone will do absolutely nothing. Kivy is not an application."
+msgstr ""
+
+#: ../../sources/installation/installation-android.rst:14
+# 21cd865a0459439e9a487a85de466d06
+msgid "That said, we provide a \"launcher\" that allows you to push your Kivy application onto your phone and execute it through a simple interface. We'll provide instructions for packaging your Kivy application in a standalone way in the future."
+msgstr ""
+
+#: ../../sources/installation/installation-android.rst:19
+# 485008614da842fba4a67809e33a26a6
+msgid "To install the Kivy launcher, you must:"
+msgstr ""
+
+#: ../../sources/installation/installation-android.rst:21
+# 093404693d46443e9d78a57c9627390f
+msgid "Go to the `Kivy Launcher <https://market.android.com/details?id=org.kivy.pygame>`_ on the Android market"
+msgstr ""
+
+#: ../../sources/installation/installation-android.rst:23
+# 69668424257a4856b0fef4b6fafb8926
+msgid "Click on Install"
+msgstr ""
+
+#: ../../sources/installation/installation-android.rst:24
+# 8570eca5bdbc42498817fff46bcdef99
+msgid "Select your phone... And you're done!"
+msgstr ""
+
+#: ../../sources/installation/installation-android.rst:26
+# 283290776d3f4745970e45d40162ec73
+msgid "Now, you can put your Kivy applications in the Kivy directory on the SD Card. Refer to :ref:`android` for a more detailed explanation."
+msgstr ""
+
+#: ../../sources/installation/installation-android.rst:30
+# 7618d159335d4530ba886bbf919a7ffa
+msgid "Installation of Examples"
+msgstr ""
+
+#: ../../sources/installation/installation-android.rst:34
+# dfb1272e99ba43df840f9b3a843191db
+msgid "These examples are not final, they are just tests for the Kivy environment on Android."
+msgstr ""
+
+#: ../../sources/installation/installation-android.rst:37
+# 2d621d7dbd6c48faa997154e88252ae7
+msgid "Download the `KivyTest for Android <http://kivy.googlecode.com/files/kivytest-for-android.zip>`_"
+msgstr ""
+
+#: ../../sources/installation/installation-android.rst:38
+# 77906d69be9643fe83b374d0449b6b41
+msgid "Unzip the content to the SD Card of your phone, in the kivy directory::"
+msgstr ""
+
+#: ../../sources/installation/installation-android.rst:42
+# 29490ca4a10344049cafa4c5ee0e79dc
+msgid "Run the launcher and select Kivytest"
+msgstr ""
+
+#: ../../sources/installation/installation-macosx.rst:2
+# b140c2eea2484028bd00d29624f98f80
+msgid "Installation on MacOSX"
+msgstr ""
+
+#: ../../sources/installation/installation-macosx.rst:6
+# 2d7cdb8c5ccc4b7ba2157a39e51e1775
+msgid "This method has only been tested on Mac OSX 10.6 Snow Leopard 64-bit. For versions prior to 10.6 or 10.6 32-bit, you have to install the components yourself. We suggest using `homebrew <http://mxcl.github.com/homebrew/>`_ to do that."
+msgstr ""
+
+#: ../../sources/installation/installation-macosx.rst:11
+# 91edd031251045d19ccce23b6827cc03
+msgid "For Mac OS X 10.6 and later, we provide a Kivy.app with all dependencies bundled. Download it from our google code project page. It comes as a .dmg file that contains:"
+msgstr ""
+
+#: ../../sources/installation/installation-macosx.rst:15
+# fb476996f3a34cacb8327cdf2774bce4
+msgid "Kivy.app"
+msgstr ""
+
+#: ../../sources/installation/installation-macosx.rst:16
+# ce8fb33f83624fd8a0797b98dd56915a
+msgid "Readme.txt"
+msgstr ""
+
+#: ../../sources/installation/installation-macosx.rst:17
+# 3e021e77f3ee4b4e9cb61ef066b8d80e
+msgid "An Examples folder"
+msgstr ""
+
+#: ../../sources/installation/installation-macosx.rst:18
+# ef110bc3119a4e25b3828a949dde0a07
+msgid "A script to install a `kivy` command for shell usage"
+msgstr ""
+
+#: ../../sources/installation/installation-macosx.rst:20
+# 28ee099ca714483eb1954dbf6b87feac
+msgid "To install Kivy, you must:"
+msgstr ""
+
+#: ../../sources/installation/installation-macosx.rst:22
+#: ../../sources/installation/installation-windows.rst:7
+# dba2bc08db7d4947912e78dada0f38ec
+# c5b103a460c34f789bad8ffac0cd2fc8
+msgid "Download the latest version from http://kivy.org/#downloads"
+msgstr ""
+
+#: ../../sources/installation/installation-macosx.rst:23
+# ea9fe425384c48e2a2a95df9775e40f9
+msgid "Double-click to open it"
+msgstr ""
+
+#: ../../sources/installation/installation-macosx.rst:24
+# 872f2009fa6c4eb59464c3ce87e18711
+msgid "Drag the Kivy.app into your Applications folder"
+msgstr ""
+
+#: ../../sources/installation/installation-macosx.rst:25
+# 2064ecf2a262427abe1620523f9e80d9
+msgid "Make sure to read the Readme.txt"
+msgstr ""
+
+#: ../../sources/installation/installation-macosx.rst:28
+# 60331de14c1b4e699844b5fc8af3ccc5
+msgid "Start any Kivy Application"
+msgstr ""
+
+#: ../../sources/installation/installation-macosx.rst:30
+# 9d6aad2b7f5d4c4b984f5b699992e524
+msgid "You can run any Kivy application by simply dragging the application's main file onto the Kivy.app icon. Just try with any python file in the examples folder."
+msgstr ""
+
+#: ../../sources/installation/installation-macosx.rst:36
+#: ../../sources/installation/installation-ubuntu.rst:29
+# f5097bcdc06a4d9693515c0ad18ae043
+# f4d9cfa8e0a04b338de1067567cee05d
+msgid "Start from Command Line"
+msgstr ""
+
+#: ../../sources/installation/installation-macosx.rst:38
+# 8d8e2feb94b744b1b0785e266569797f
+msgid "If you want to use Kivy from the command line, double-click the ``Make Symlinks`` script after you dragged the Kivy.app into the Applications folder. To test if it worked:"
+msgstr ""
+
+#: ../../sources/installation/installation-macosx.rst:41
+# ddc2e651174b42c69c193eb2c8df7137
+msgid "Open Terminal.app and run ``kivy``. You should get a Python prompt."
+msgstr ""
+
+#: ../../sources/installation/installation-macosx.rst:42
+# 703dd8b1d6df4e5aa6027368f12aa613
+msgid "In there, enter import kivy. If it just goes to the next line without errors, it worked."
+msgstr ""
+
+#: ../../sources/installation/installation-macosx.rst:43
+# 98addfdd18b34fd18e44a5115964d9d1
+msgid "Running any Kivy application from the command line is now simply a matter of executing a command like the following: ``kivy yourapplication.py``"
+msgstr ""
+
+#: ../../sources/installation/installation-ubuntu.rst:2
+# fa5ed277f8194ba399deb502b5c530ec
+msgid "Installation on Ubuntu"
+msgstr ""
+
+#: ../../sources/installation/installation-ubuntu.rst:4
+# 2abd469be501486996459700eeb29488
+msgid "The following instructions are for Ubuntu, but they should work in a similar fashion for other Linux distributions (e.g. Debian, opensuse, fedora, etc.). Obviously you will need to adjust the commands."
+msgstr ""
+
+#: ../../sources/installation/installation-ubuntu.rst:9
+# ccb4a681122a49c89281a1ba29553f20
+msgid "Ubuntu 10.10 (Maverick)"
+msgstr ""
+
+#: ../../sources/installation/installation-ubuntu.rst:11
+# 246f5ce8ca6540f588d47e3ab2a8241c
+msgid "Unfortunately there is no kivy package in the Ubuntu repositories yet. We're working on it. Until then, do the following instead:"
+msgstr ""
+
+#: ../../sources/installation/installation-ubuntu.rst:21
+# d512c9586a7c48d59124b21dc53c4965
+msgid "If you already installed kivy before, you can upgrade it with::"
+msgstr ""
+
+#: ../../sources/installation/installation-ubuntu.rst:31
+# 37b5a0ae11374552b8ff761c465ee6db
+msgid "We are shipping some examples ready-to-run. However, theses examples are packaged inside the package. That's mean, you must known first where easy_install have installed your current kivy package, and go to the example directory::"
+msgstr ""
+
+#: ../../sources/installation/installation-ubuntu.rst:35
+# 2a3c18a2ec5949d7988536b41b037c5b
+msgid "And you should have a path similar to::"
+msgstr ""
+
+#: ../../sources/installation/installation-ubuntu.rst:39
+# 2930d099ae034aaeadcef44b0ad00238
+msgid "Then you can go to the example directory, and run it::"
+msgstr ""
+
+#: ../../sources/installation/installation-ubuntu.rst:51
+# ee929c848b3349c0b318d62630d8070e
+msgid "If you don't know about Unix and symbolic link, you can create a link directly in your home directory, for an easier access. For example:"
+msgstr ""
+
+#: ../../sources/installation/installation-ubuntu.rst:53
+# 1598523debfe4c1e821b6ed91de3a276
+msgid "Get the example path from the command line above"
+msgstr ""
+
+#: ../../sources/installation/installation-ubuntu.rst:54
+# 263bbf64b31244f89f14cb3515cf1b26
+msgid "Paste in your console::"
+msgstr ""
+
+#: ../../sources/installation/installation-ubuntu.rst:58
+# 9415d11ac7e74f24b55f602fd5eb70bc
+msgid "Then, you can access to kivy-examples directly in your Home directory::"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:2
+# 5e13fc27e3e84a689d8e43975c56c90c
+msgid "Installation on Windows"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:4
+# 93cc99826bff4cbb88689a81fec03f92
+msgid "For Windows, we provide what we call a 'portable package'. You don't have to install anything \"system\" wide. Just unzip & run:"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:8
+# 50ffb45a12574fdeb6dec096852fe410
+msgid "Unzip the package"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:9
+# a8a0b091d7414829ac82cd304f88d8a8
+msgid "Then, in the unzipped package, you have a script called `kivy.bat`, use it for launching any kivy application as described below"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:16
+# 8ff79038b53942bf8c491cb2c72a7dc0
+msgid "Start a Kivy Application"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:19
+# 209d8f825adb4e72aea52a17a719a058
+msgid "Send-to method"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:21
+# 2d48641916af4bfabc22da0474e7c708
+msgid "You can launch a .py file with our Python using the Send-to menu:"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:23
+# 34771861ef6b4e89b5d6e4679c4b0448
+msgid "Create a shortcut of the kivy.bat"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:24
+# fd96d152067b46f69c88fa655c7ed28b
+msgid "Open the explorer, and to go the address 'shell:sendto'"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:25
+# e03cd3af4ecf43adaf13646c85f29a72
+msgid "Move the kivy.bat's shortcut to this directory"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:26
+# 15551c3b8c74489c9336ef574215715a
+msgid "(optional) rename it to Kivy <kivy-version>"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:28
+# 2af1599be35d488181e5a71e8cc23091
+msgid "Then, you can execute application by doing:"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:30
+# f1cb336a926847d081f88c51477da1e1
+msgid "Right click on the .py file"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:31
+# 6a06ce9c180a427c82dd7a494566515e
+msgid "Select Send-to > Kivy <version>"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:34
+# 91a449a87b5b41b1bf0ad3c6cd7eef81
+msgid "Double-click method"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:36
+# 23c9895c671049839d6ac51db6b21a68
+msgid "There are some simple steps that you need to do once in order to be able to launch any kivy application by just double-clicking it:"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:39
+# 92498b68c19d4c77980dfdc56067ad92
+msgid "Right click on the main python file (.py ending) of the application you want to launch"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:40
+# 2c1de48afc2f44a583001c81e9a57a14
+msgid "From the context menu that appears, select *Open With*"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:41
+# 058b71562abf4dde99ac257add708299
+msgid "Browse your hard disk drive and find the file ``kivy.bat`` from the portable package. Select it."
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:42
+# 611ea1f25aab47db8898491ac0374f15
+msgid "Select \"Always open the file with...\" if you don't want to repeat this procedure every time you double click a .py file."
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:43
+# 313de25580c54c25a2a32dc1bd84678e
+msgid "You are done. Open the file."
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:45
+# 25b251822fe14e06aedb966eae1d451c
+msgid "The next time you double click a .py file, it will be executed with the version of python that Kivy ships with."
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:49
+# 8166a17968144f8bb0d3e20e0fe3ea57
+msgid "On Windows we have to ship our own version of Python since it's not installed by default on Windows (unlike Mac OS X and Linux). By following the steps above, you will set Kivy's version of Python as the default for opening .py files for your user. Normally this should not be harmful as it's just a normal version of Python with the :ref:`necessary third party libraries <winpackagecontents>` added to the module search path. If you do encounter unexpected problems, please :ref:`contact`."
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:60
+# 21b263b3f9bd4a86a1a899155577e421
+msgid "Start from Command-Line"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:62
+# 7eefcfd77da24bc9a149e8ae5648f911
+msgid "If you just want to use or develop with the latest stable kivy version, we offer an alternative way with a console. You need a minimalist GNU system installed on your system. Use `msysGit <http://code.google.com/p/msysgit/>`_."
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:66
+# 12e843d24e224f12b214fdb7ffd8ee21
+msgid "When you install msysGit, you must select theses options:"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:68
+# 3db0d337e9ac4436b1764cb8f8a38bd8
+msgid "Don't replace windows shell"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:69
+# 6d801a0db9fe45e0a1b2a7b40bc3cdeb
+msgid "Checkout as-is, commit as-is (no CLRF replacement!)"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:71
+# 5dc927c62b6d46d5ba26f7bcea5f2bdd
+msgid "You'll have an icon \"Git bash\" on your desktop, this is the console we want:"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:73
+# a454e4db354a4f828dacb7d3098dd6be
+msgid "Start \"Git bash\""
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:74
+# 27182c214cb8437494f0d31866117251
+msgid "``cd <directory of portable kivy>``"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:75
+# 4960f9d2e19f4bf680ffbf0ab3fc3a0b
+msgid "``source kivyenv.sh <full directory path of portable kivy>`` # (don't use .)"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:77
+# 7785470ebf114607be5dcc6c2a2dc1bf
+msgid "You are now ready to launch python/kivy from the command-line! Just do::"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:81
+# 05dd7945f18c4271b8a8ca9bf0e9bb9d
+msgid "Also, all other scripts and binaries are available, such as:"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:83
+# 09258a9d04ce469888763a4c98b39c05
+msgid "cython"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:84
+# a3f36bbe89f8444fbf51772b0233077b
+msgid "gcc / make..."
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:85
+# f4c5ab86fd5448adb6ed355bbcf710b1
+msgid "easy_install"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:86
+# 6c2f73aa944440cba8fcbad2ad86030c
+msgid "gst-inspect-0.10"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:92
+# 5b33f63c624049fa8ddc8fd82ef2e943
+msgid "Package Contents"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:94
+# 0b28399a13fb4a7bb096a3183c762324
+msgid "The latest Windows package contains:"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:96
+# 4bdf721961af4bd0b80466f9e698c962
+msgid "Latest stable kivy version"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:97
+# e5215b6f68a547f3bd261d12e19faf8f
+msgid "Python 2.7.1"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:98
+# b106cfdc2ca34c6792b60ab929e29244
+msgid "Glew 1.5.7"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:99
+# 8b7d6469198f4bd1ace6becf8986b478
+msgid "Pygame 1.9.2"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:100
+# 20d1a99edff9456eb49b9cee6cb6c440
+msgid "Cython 0.14"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:101
+# 2f76b72db9274910835db3c74e223503
+msgid "MingW"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:102
+# 8866e218b362465197b00634d0dd667c
+msgid "Gstreamer"
+msgstr ""
+
+#: ../../sources/installation/installation-windows.rst:103
+# 738e374507cf4721bed91ea8d231f22c
+msgid "Setuptools"
+msgstr ""
+

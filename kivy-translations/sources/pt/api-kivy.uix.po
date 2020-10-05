@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 16:54\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# 7c9a972a6430493f8b0ed978105b866e
+#: ../../sources/api-kivy.uix.rst:3
+msgid "Widgets"
+msgstr ""
+
+# 47431e5fe89a4266bce69dacdbaec532
+#: ../../../kivy/uix/__init__.py:docstring of kivy.uix:2
+msgid "A widget is an element of a graphical user interface."
+msgstr ""
+
+# b3511e961e604bd48925395db9055274
+#: ../../../kivy/uix/__init__.py:docstring of kivy.uix:4
+msgid "The `kivy.uix` module contains classes for creating and arranging Widgets."
+msgstr ""
+
+# 3903c396d02b4037904ea55a007eda7c
+#: ../../../kivy/uix/__init__.py:docstring of kivy.uix:6
+msgid "If you don't know anything about widgets, you should start by reading the :class:`~kivy.uix.widget.Widget` documentation."
+msgstr ""
+
+# 87f05599c3c748c39cfb5db9334f2b18
+#: ../../../kivy/uix/__init__.py:docstring of kivy.uix:9
+msgid "If you need to arrange widgets on the screen, start by reading the :class:`~kivy.uix.layout.Layout` documentation."
+msgstr ""

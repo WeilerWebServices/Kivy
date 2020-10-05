@@ -1,0 +1,38 @@
+{
+  "name": "mcnotify",
+  "version": "0.1.0",
+  "description": "A GitHub App built with Probot that comments on predefined issues after certain events.",
+  "author": "Kivy maintainers",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/kivy/mcnotify.git",
+    "type": "git"
+  },
+  "bugs": "https://github.com/kivy/mcnotify/issues",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "probot run ./src/index.js",
+    "watch": "nodemon --exec 'yarn run start'",
+    "update": "ncu --upgrade --upgradeAll && yarn",
+    "push": "git push --follow-tags origin master",
+    "release": "standard-version && yarn run push"
+  },
+  "files": [
+    "docs",
+    "src"
+  ],
+  "dependencies": {
+    "probot": "^7.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4",
+    "npm-check-updates": "^2.14.2",
+    "smee-client": "^1.0.2",
+    "standard-version": "^4.4.0"
+  },
+  "engines": {
+    "node": "8.9.4",
+    "npm": "5.5.1"
+  },
+  "private": true
+}

@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 16:54\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# 33044c82731a41d2badb4c5de858775f
+#: ../../sources/api-kivy.input.rst:3
+msgid "Input management"
+msgstr ""
+
+# 0d68d0074b7147558d44f915acbf3c5a
+#: ../../../kivy/input/__init__.py:docstring of kivy.input:2
+msgid "Our input system is wide and simple at the same time. We are currently able to support natively :"
+msgstr ""
+
+# 462feae382b4493e836cede01270671b
+#: ../../../kivy/input/__init__.py:docstring of kivy.input:5
+msgid "Windows multitouch event (pencil and finger)"
+msgstr ""
+
+# 3715b844eda34dda8aa3721b85341699
+#: ../../../kivy/input/__init__.py:docstring of kivy.input:6
+msgid "MacOSX touchpad"
+msgstr ""
+
+# ee89ce7d6d6244048750015cb13aab9c
+#: ../../../kivy/input/__init__.py:docstring of kivy.input:7
+msgid "Linux multitouch event (kernel and mtdev)"
+msgstr ""
+
+# 7da4aceb57154056a6d755a9cdb97f57
+#: ../../../kivy/input/__init__.py:docstring of kivy.input:8
+msgid "Linux wacom driver (pencil and finger)"
+msgstr ""
+
+# dfc45efed57d43bab7587e88ef8af671
+#: ../../../kivy/input/__init__.py:docstring of kivy.input:9
+msgid "TUIO"
+msgstr ""
+
+# 9484474aadd8450483ee940a38bd4172
+#: ../../../kivy/input/__init__.py:docstring of kivy.input:11
+msgid "All the input management is configurable in the Kivy configuration. You can easily use many multitouch device into one Kivy application."
+msgstr ""
+
+# 7a074f8a55fd434c9b360fd6f9c506a5
+#: ../../../kivy/input/__init__.py:docstring of kivy.input:14
+msgid "When the event have been read from devices, they are dispatched through post processing module, before sending them to your application. We got also several module by default for :"
+msgstr ""
+
+# 51b3e42d4b1841868b2df40d99256696
+#: ../../../kivy/input/__init__.py:docstring of kivy.input:18
+msgid "Double tap detection"
+msgstr ""
+
+# 470e564d4d1c4609a7eb9a7ea56c0836
+#: ../../../kivy/input/__init__.py:docstring of kivy.input:19
+msgid "Decrease jittering"
+msgstr ""
+
+# 0580f541f66f4d049b1bf383648d0318
+#: ../../../kivy/input/__init__.py:docstring of kivy.input:20
+msgid "Decrease the loose of touch on \"bad\" DIY hardware"
+msgstr ""
+
+# 98f6e5bd571f4745b71aa4a61d17c73e
+#: ../../../kivy/input/__init__.py:docstring of kivy.input:21
+msgid "Ignore regions"
+msgstr ""

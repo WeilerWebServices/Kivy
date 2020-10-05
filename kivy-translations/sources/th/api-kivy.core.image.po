@@ -1,0 +1,229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 17:12\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# b0f6d7e8418b426496fcff37612833da
+#: ../../sources/api-kivy.core.image.rst:3
+msgid "Image"
+msgstr ""
+
+# 9f4c0da3a6f74eb6a2f296c2d95ce5e9
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image:2
+msgid "Core classes for loading image and convert them to :class:`~kivy.graphics.texture.Texture`. The raw image data can be keep in memory for further access."
+msgstr ""
+
+# 3629e9e384ba4f06bfedd3e5daa22365
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image:8
+msgid "Saving image is not yet supported."
+msgstr ""
+
+# 3da42310afa14678abb827945ba6e404
+#: ../../<autodoc>:1
+msgid "Bases: :class:`kivy.event.EventDispatcher`"
+msgstr ""
+
+# c32aedf2896744b68d540ba1a2d6258f
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image:1
+msgid "Load an image, and store the size and texture."
+msgstr ""
+
+# 0fadf41fdac84021b78c88e092076122
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image:14
+msgid "A string is interpreted as a path to the image to be loaded. You can also provide a texture object or an already existing image object. In the latter case, a real copy of the given image object will be returned."
+msgstr ""
+
+# 7d7632f2442d44118c6a0b1c99ffe19c
+# 412edd3f32534d459ab2b7a727f6a110
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image:19
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image.load:7
+msgid "Keep the image data when texture is created"
+msgstr ""
+
+# fc4227e7476944f992e5db75505d3278
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image:21
+msgid "Opacity of the image"
+msgstr ""
+
+# e79dacc7681042c6a48687ccc21120a7
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image:23
+msgid "Scale of the image"
+msgstr ""
+
+# 0bc99124965648aba539ef32a9a6e602
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image:25
+msgid "Create mipmap for the texture"
+msgstr ""
+
+# bac28fd686bb451c90e15480e5be199d
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image:27
+msgid "Delay in seconds between each animation frame. Lower means faster animation."
+msgstr ""
+
+# aed0b56be9384ac39efb8dbceca14409
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image.anim_available:1
+msgid "Return True if this Image instance have animation available."
+msgstr ""
+
+# f4f5fd0cc71345f7b9dea54a3022550a
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image.anim_delay:1
+msgid "Delay betwean each animation frame. Lower means faster animation."
+msgstr ""
+
+# 57f0dc3f68ed4020a701fbd004847e04
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image.anim_index:1
+msgid "Return the index number of the image currently in the texture"
+msgstr ""
+
+# 8caae9c754ae43ed809ce43b7aa6d9e3
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image.anim_reset:1
+msgid "Reset an animation if available."
+msgstr ""
+
+# 609425bcab0941719e5a27041efc2c78
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image.anim_reset:7
+msgid "Indicate if the animation should restart playing or not."
+msgstr ""
+
+# 8f1a31c9e35a4cb18b7f319c23d26f71
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image.anim_reset:9
+msgid "Usage::"
+msgstr ""
+
+# 2c147606a73545e594132e10a4fc0a9e
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image.anim_reset:17
+msgid "You can change the animation speed in live::"
+msgstr ""
+
+# 5dc27bddef69421fb04c381af04bf279
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image.filename:1
+msgid "Get/set the filename of image"
+msgstr ""
+
+# 25ec69041d434722ac0f003da52eed77
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image.height:1
+msgid "Image height"
+msgstr ""
+
+# 69d0469a2f524a89bba58197fa7aad29
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image.image:1
+msgid "Get/set the data image object"
+msgstr ""
+
+# 28d665952ffa482dbb59f6240fc62442
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image.load:1
+msgid "Load an image"
+msgstr ""
+
+# 4b8d88a10caf4eab9d63835fa98c8411
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image.load:5
+msgid "Filename of the image"
+msgstr ""
+
+# e494c86a1fa045558daeb05552724e3c
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image.on_texture:1
+msgid "This event is fired when the texture reference or content have been changed. It's actually used for sequenced images."
+msgstr ""
+
+# c9130e7b8ea74037a1b13dacce938af3
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image.read_pixel:1
+msgid "For a given local x/y position, return the color at that position."
+msgstr ""
+
+# eba245e39cb34ff89f2ec1e1ed428f15
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image.read_pixel:4
+msgid "This function can be used only with images loaded with keep_data=True keyword. For examples ::"
+msgstr ""
+
+# 49ba5a0067194c5d91b4ddd08cea80fb
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image.read_pixel:12
+msgid "Local x coordinate of the pixel in question."
+msgstr ""
+
+# bd544a8d93dc4a1da210bd2b576a8e93
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image.read_pixel:14
+msgid "Local y coordinate of the pixel in question."
+msgstr ""
+
+# f0e06ca70466422697eb062706da911a
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image.size:1
+msgid "Image size (width, height)"
+msgstr ""
+
+# 45e641809c054f32963a1802e36ca532
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image.texture:1
+msgid "Texture of the image"
+msgstr ""
+
+# 1dcf28a9ae404530adc6bf16fb9cfa2f
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.Image.width:1
+msgid "Image width"
+msgstr ""
+
+# d6e3d6a7944945e8b6b65e1316851b23
+#: ../../<autodoc>:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+# 7f99048a7cfa4a32a178367bda2f092d
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.ImageData:1
+msgid "Container for image and mipmap images. The container will always have at least the mipmap level 0."
+msgstr ""
+
+# 5b4a8e532ae1487f9d9abdcceae1c11e
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.ImageData.add_mipmap:1
+msgid "Add a image for a specific mipmap level."
+msgstr ""
+
+# 28fa6acc9f634e2f85b8eeab30373f9a
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.ImageData.data:1
+msgid "Image data. (If the image is mipmapped, it will use the level 0)"
+msgstr ""
+
+# 75b0ae8dca934d098934cc0a93840e3f
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.ImageData.fmt:1
+msgid "Decoded image format, one of a available texture format"
+msgstr ""
+
+# f70b1a37450a4fc0989ac290c15c3a36
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.ImageData.get_mipmap:1
+msgid "Get the mipmap image at a specific level if exist"
+msgstr ""
+
+# 42ed48d81da94bc99286c6ea6ceffea8
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.ImageData.height:1
+msgid "Image height in pixels. (If the image is mipmapped, it will use the level 0)"
+msgstr ""
+
+# a14a9b23ec5b450fa0549fa38546da1a
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.ImageData.iterate_mipmaps:1
+msgid "Iterate over all mipmap images available"
+msgstr ""
+
+# 9d451824f2314745a36abfd90c0e3650
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.ImageData.mipmaps:1
+msgid "Data for each mipmap."
+msgstr ""
+
+# 8cb9a1e4ef5e4b42b7b6aaf91c64a387
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.ImageData.size:1
+msgid "Image (width, height) in pixels. (If the image is mipmapped, it will use the level 0)"
+msgstr ""
+
+# 6cf7f7f86921495d8ad0dd026d11ac09
+#: ../../../kivy/core/image/__init__.py:docstring of kivy.core.image.ImageData.width:1
+msgid "Image width in pixels. (If the image is mipmapped, it will use the level 0)"
+msgstr ""

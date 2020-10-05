@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 16:54\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# d9889aea33914fdf9088762885aeed98
+#: ../../sources/api-kivy.core.text.rst:3
+msgid "Text"
+msgstr ""
+
+# 3155528302134d6e9c5b1d13fc93822a
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text:2
+msgid "Abstraction of text creation. Depending of the selected backend, the text rendering can be more or less accurate."
+msgstr ""
+
+# 58d18da185794374a20efa3e6101bf07
+#: ../../<autodoc>:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+# 4cf441e26c204e6595c343b044bbe8d4
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase:1
+msgid "Core text label. This is the abstract class used for different backend to render text."
+msgstr ""
+
+# 1e6e653a4c014f47a4cf545bb8b581f7
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase:5
+msgid "The core text label can't be changed at runtime, you must recreate one."
+msgstr ""
+
+# 2c679413ce7d46b7acd0c35464b65a79
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase:17
+msgid "Font size of the text"
+msgstr ""
+
+# ef2156eab1614cb2b7fd3d225bd1cff5
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase:19
+msgid "Font name of the text"
+msgstr ""
+
+# 24865083330440d4901f4815b8926cf1
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase:21
+msgid "Activate \"bold\" text style"
+msgstr ""
+
+# f9ab922503ba404189d43cb1d225e688
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase:23
+msgid "Activate \"italic\" text style"
+msgstr ""
+
+# 74057085496145f88294c6226a88f55d
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase:25
+msgid "Add constraint to render the text (inside a bounding box) If no size is given, the label size will be set to the text size."
+msgstr ""
+
+# dc55052e60a24d69bf73e7c0df3b1be5
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase:28
+msgid "If it's a integer, it will set padding_x and padding_y"
+msgstr ""
+
+# 752744426b124931836614c4d8f613e1
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase:30
+msgid "Left/right padding"
+msgstr ""
+
+# d2d7bfe258514a30b4b206e22077dd30
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase:32
+msgid "Top/bottom padding"
+msgstr ""
+
+# 1bb31d85b88f4da3be4da47f3f634f29
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase:34
+msgid "Horizontal text alignement inside bounding box"
+msgstr ""
+
+# e2710c5110a9417fb08068ad80ef4311
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase:36
+msgid "Vertical text alignement inside bounding box"
+msgstr ""
+
+# c1e57036d2a24744bbe40173809bbf66
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase:38
+msgid "Indicate whether the label should attempt to shorten its textual contents as much as possible if a `size` is given. Setting this to True without an appropriately set size will lead unexpected results."
+msgstr ""
+
+# ad77230d51d245dfa3beeb3bd5d5005d
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase:43
+msgid "Create mipmap for the texture"
+msgstr ""
+
+# 5c258ab325fb434d90005cfeae02cab6
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase.content_height:1
+msgid "Return the content height"
+msgstr ""
+
+# 738f8a75cf3d4dbe8113fe9f3d0c8875
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase.content_size:1
+msgid "Return the content size (width, height)"
+msgstr ""
+
+# bfc9b7d01b634252bec89915a76d877a
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase.content_width:1
+msgid "Return the content width"
+msgstr ""
+
+# eb9fdf86541f497191f846f03715637e
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase.fontid:1
+msgid "Return an uniq id for all font parameters"
+msgstr ""
+
+# 26b15cae5c0344f89d0560493a2a34cf
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase.get_extents:1
+msgid "Return a tuple with (width, height) for a text."
+msgstr ""
+
+# e4abe98e92234f93980e0c574167f765
+# fb388159b7fb44eca92ace913b86bed6
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase.label:1
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase.text:1
+msgid "Get/Set the text"
+msgstr ""
+
+# 28f262a33a2e42669ca1ac0bb971f8b3
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase.refresh:1
+msgid "Force re-rendering of the text"
+msgstr ""
+
+# 85b18d2c7649470494039e0c46898756
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase.render:1
+msgid "Return a tuple(width, height) to create the image with the user constraints."
+msgstr ""
+
+# 2f470caa019f44949ea9a9270c9d599f
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase.render:5
+msgid "if user don't set width, splitting line and calculate max width + height"
+msgstr ""
+
+# 2c1c3176b7bf4883893dc394baaf4c96
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase.render:7
+msgid "if user set a width, blit per glyph"
+msgstr ""
+
+# aa84dc71c1b2428a88c0db03489a433b
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase.text_size:1
+msgid "Get/set the (width, height) of the contrained rendering box"
+msgstr ""
+
+# 29cfb1f78c5b44909bbb007522aa85ef
+#: ../../../kivy/core/text/__init__.py:docstring of kivy.core.text.LabelBase.usersize:1
+msgid "(deprecated) Use text_size instead."
+msgstr ""

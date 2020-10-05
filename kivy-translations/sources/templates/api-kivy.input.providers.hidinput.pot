@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.9-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-24 12:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../sources/api-kivy.input.providers.hidinput.rst:3
+# 58ebc8d35a8d4dd5bc5846dee7a26b97
+msgid "Native support of HID input from linux kernel"
+msgstr ""
+
+#: ../../../kivy/input/providers/hidinput.py:docstring of kivy.input.providers.hidinput:2
+# 404203991ffb40afb9855989af894f28
+msgid "Support start from 2.6.32-ubuntu, or 2.6.34."
+msgstr ""
+
+#: ../../../kivy/input/providers/hidinput.py:docstring of kivy.input.providers.hidinput:4
+# 00b2c831250e4c0eb2acf484b975a38f
+msgid "To configure HIDInput, put in your configuration ::"
+msgstr ""
+
+#: ../../../kivy/input/providers/hidinput.py:docstring of kivy.input.providers.hidinput:12
+# 2760254361724e6183c37902dd7e7c1e
+msgid "You must have read access to the input event."
+msgstr ""
+
+#: ../../../kivy/input/providers/hidinput.py:docstring of kivy.input.providers.hidinput:14
+# 5f5272d7759442859b37d8eb3d829ee3
+msgid "You have the possibility to use custom range for some X, Y and pressure value. On some drivers, the range reported is invalid. To fix that, you can add one of theses options on the argument line :"
+msgstr ""
+
+#: ../../../kivy/input/providers/hidinput.py:docstring of kivy.input.providers.hidinput:18
+# 8b089035cf724eca8208a962d3943fb0
+msgid "invert_x : 1 to invert X axis"
+msgstr ""
+
+#: ../../../kivy/input/providers/hidinput.py:docstring of kivy.input.providers.hidinput:19
+# 7e34bf890e454678af5f300fe0490fa0
+msgid "invert_y : 1 to invert Y axis"
+msgstr ""
+
+#: ../../../kivy/input/providers/hidinput.py:docstring of kivy.input.providers.hidinput:20
+# ef62049f39644afcbffdcfc0a52f7a8c
+msgid "min_position_x : X minimum"
+msgstr ""
+
+#: ../../../kivy/input/providers/hidinput.py:docstring of kivy.input.providers.hidinput:21
+# 6fed51d4a3ca47dea18a2c9de2a11487
+msgid "max_position_x : X maximum"
+msgstr ""
+
+#: ../../../kivy/input/providers/hidinput.py:docstring of kivy.input.providers.hidinput:22
+# f6105fece42c4a96b4159ce292c807f2
+msgid "min_position_y : Y minimum"
+msgstr ""
+
+#: ../../../kivy/input/providers/hidinput.py:docstring of kivy.input.providers.hidinput:23
+# 3147b111d66c49c78237144685a63387
+msgid "max_position_y : Y maximum"
+msgstr ""
+
+#: ../../../kivy/input/providers/hidinput.py:docstring of kivy.input.providers.hidinput:24
+# d40f6e721cfe4026b603636069981991
+msgid "min_pressure : pressure minimum"
+msgstr ""
+
+#: ../../../kivy/input/providers/hidinput.py:docstring of kivy.input.providers.hidinput:25
+# 35237dd0cd9a424d8fed73f000c53474
+msgid "max_pressure : pressure maximum"
+msgstr ""
+
+#: ../../../kivy/input/providers/hidinput.py:docstring of kivy.input.providers.hidinput:27
+# 438172ae04ff4fb3ac080621c4c69b8d
+msgid "For example, on Asus T101M, the touchscreen report a range from 0-4095 for X and Y value, but real value are in a range from 0-32768. You can put it on configuration ::"
+msgstr ""
+

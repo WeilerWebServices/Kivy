@@ -1,0 +1,600 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.9-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-24 12:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../sources/api-kivy.uix.textinput.rst:3
+# 3e68338da8fd4ee9987e7930429b86ce
+msgid "Text Input"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:7
+# 707ca6b4479d4fbea123de6b11a76538
+msgid "The :class:`TextInput` widget provides a box of editable plain text."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:9
+# 9428bf3296044d41a9aa40ab94fb2e36
+msgid "Unicode, multiline, cursor navigation, selection and clipboard features  are supported."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:14
+# a0459bd86aa846898cb8e8cc7f5474f5
+msgid "Two different coordinate systems are used with TextInput:"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:16
+# 3834c788a9c34089a47d49be4be0a47d
+msgid "(x, y) Coordinates in pixels, mostly used for rendering on screen"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:17
+# 32da76539e89466eb096c24f9c0c9bf6
+msgid "(row, col) Cursor index in characters / lines, used for selection  and cursor movement."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:22
+# 3707d99285b14f4689fdab22cc184fa4
+msgid "Usage example"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:24
+# 0d1f4f6adbff406bbdfa2f1f2b97e880
+msgid "To create a multiline textinput ('enter' key adds a new line)::"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:29
+# e71981b7d38a4364af268fc2318242fe
+msgid "To create a monoline textinput, set the multiline property to false ('enter'  key will defocus the textinput and emit on_text_validate event) ::"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:38
+# 0759df175d9144cfbade15850c85c248
+msgid "To run a callback when the text changes ::"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:46
+# 239b8a2fc9204939a34a7593ea2ba2e6
+msgid "You can 'focus' a textinput, meaning that the input box will be highlighted,  and keyboard will be requested ::"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:51
+# d77cb281a4e44146ac5428b58061a520
+msgid "The textinput is defocused if the 'escape' key is pressed, or if another  widget requests the keyboard. You can bind a callback to focus property to  get notified of focus changes ::"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:66
+# 98620a99ae7447a5a6fcd5775f224515
+msgid "Selection"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:68
+# fc01e02f11e14a4991a2d7192f01fd78
+msgid "The selection is automatically updated when the cursor position changes. You can get the currently selected text from the  :data:`TextInput.selection_text` property."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:74
+# dc3665091a674eee8c61e71182318fc6
+msgid "Default shortcuts"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:77
+# 0f54735302644de2a88dc85bb8dbb436
+msgid "Shortcuts"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:77
+# 1f2bcea7a88a4274b83bf5fb41bb8020
+msgid "Description"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:79
+# 324cd91eeb18467285c6367f5cd3bd71
+msgid "Left"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:79
+# cc1a11d66a7b4503bffd73e2ba540591
+msgid "Move cursor to left"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:80
+# b1cae853cfa14a498ec6c038eff7f191
+msgid "Right"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:80
+# 6d714481a8c140e684a41eeb3f949298
+msgid "Move cursor to right"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:81
+# b5d925465f8d4f25a6d78b2235323990
+msgid "Up"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:81
+# 09fbeeda5ca7423794b69696b0063bd4
+msgid "Move cursor to up"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:82
+# 552fda597ac94187ae1de3a887c478df
+msgid "Down"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:82
+# 8a56e2fe454246969763956fd71bd9da
+msgid "Move cursor to down"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:83
+# 2c7299f98df943e592d55e760a840c0a
+msgid "Home"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:83
+# a9a32a5903be45499a29e5838b369e08
+msgid "Move cursor at the beginning of the line"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:84
+# da20af9206dd41e4a2bb0b883086007b
+msgid "End"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:84
+# d8874886d59444048b3b2a2dea4d8889
+msgid "Move cursor at the end of the line"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:85
+# d0f2104f27ce4c27ad17c99519dc1090
+msgid "PageUp"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:85
+# e3dc5c900801421d80b8625e208b6907
+msgid "Move cursor to 3 lines before"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:86
+# c4a8f4c579d94781ab159720a951290f
+msgid "PageDown"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:86
+# f870d28fb5ba4779b3d7f07602427f8b
+msgid "Move cursor to 3 lines after"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:87
+# bbf745016b5f45599ca01f75a2c5c249
+msgid "Backspace"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:87
+# 9bbe06e074ff4144829714caa3545a77
+msgid "Delete the selection or character before the cursor"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:88
+# f6558fecb2ce4dceb6ee607cde65e34b
+msgid "Del"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:88
+# 1fc9160b755243bca95499b850687827
+msgid "Delete the selection of character after the cursor"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:89
+# 136efb7e388d40859ca0fad79597330d
+msgid "Shift + <dir>"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:89
+# efb5f764c0984379a57c489cb404d411
+msgid "Start a text selection. Dir can be Up, Down, Left, Right"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:90
+# 917b267de0524021a2dda75d341e4949
+msgid "Control + c"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:90
+# 7afe20dc3bc34d2fbfae8ea1fed815a6
+msgid "Copy selection"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:91
+# 62bad76ec77348649b1caf5d1c785422
+msgid "Control + x"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:91
+# 56daab12e15d4fab82a8b16d954c75d4
+msgid "Cut selection"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:92
+# ba970b0f1ef84dd09572e43cb9e2b081
+msgid "Control + p"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:92
+# 670de0eae1e640c8b8301e2087628141
+msgid "Paste selection"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:93
+# 00e2474ea4d3448dad8e4a1240204e08
+msgid "control + a"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput:93
+# c274a1edbb874c1fa9b1cfe1d3540f66
+msgid "Select all the content"
+msgstr ""
+
+#: ../../<autodoc>:1
+# 6dccdf9c54ab4e1fa935b98f2c30b01a
+msgid "Bases: :class:`kivy.uix.widget.Widget`"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput:1
+# f50302851bd44aaaac3def66dde8a18d
+msgid "TextInput class, see module documentation for more information."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput:5
+# 6fc904f2f6434dffae30070ef0b43e69
+msgid "Fired only in multiline=False mode, when the user hits 'enter'.  This will also unfocus the textinput."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.cancel_selection:1
+# ba021994ca19498cb9db8ff3f091d3f3
+msgid "Cancel current selection (if any)"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.cursor:1
+# a7d50f14ec2c4e36b0ca48c0808b565e
+msgid "Tuple of (row, col) of the current cursor position. You can set a new (row, col) if you want to move the cursor. The scrolling area will be automatically updated to ensure that the cursor will be visible inside the viewport."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.cursor:6
+# 74a122264782402f805dbf815bb14854
+msgid ":data:`cursor` is a :class:`~kivy.properties.AliasProperty`."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.cursor_blink:1
+# baa5b5134736462484b1562acef1fd3e
+msgid "This property is used to blink the cursor graphics. The value of :data:`cursor_blink` is automatically computed, setting a value on it will have no impact."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.cursor_blink:5
+# 0caeb78dba544ae09b486b1acd39c318
+msgid ":data:`cursor_blink` is a :class:`~kivy.properties.BooleanProperty`, default to False"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.cursor_col:1
+# 904bedbb0e8e4062b9742eb1b6c61bec
+msgid "Current column of the cursor."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.cursor_col:3
+# f952692254134b059e200faa7cf39ff2
+msgid ":data:`cursor_col` is a :class:`~kivy.properties.AliasProperty` to cursor[0], read-only."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.cursor_index:1
+# b206a7f9742343299aecf75eba36a01c
+msgid "Return the cursor index in the text/value."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.cursor_offset:1
+# 84c7a2b74db14950b546effbbb4e14b8
+msgid "Get the cursor x offset on the current line"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.cursor_pos:1
+# 0f33df7b5acf41fb96771ec0e0d7e8b4
+msgid "Current position of the cursor, in (x, y)."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.cursor_pos:3
+# d45d27a9f8d044abaa69b89bc5d025b0
+msgid ":data:`cursor_pos` is a :class:`~kivy.properties.AliasProperty`, read-only."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.cursor_row:1
+# 2b78f7b6a74845648c6bef0416d3ce02
+msgid "Current row of the cursor."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.cursor_row:3
+# af1343a2d767427a9d72f2de7cb438fb
+msgid ":data:`cursor_row` is a :class:`~kivy.properties.AliasProperty` to cursor[1], read-only."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.delete_selection:1
+# cfe4f3e4ec084f5d83530d55e05c9930
+msgid "Delete the current text selection (if any)"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.do_backspace:1
+# f1b55406491646c3aca7408843203df9
+msgid "Do backspace operation from the current cursor position. This action might do lot of things like:"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.do_backspace:4
+# 63cb063a87734e65a4a1903c1a9f6985
+msgid "removing the current selection if available"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.do_backspace:5
+# a909c5aec9204dfbbd164652925fe181
+msgid "removing the previous char, and back the cursor"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.do_backspace:6
+# 0c2d2bfe1cb94388bf53509d3a33fcd5
+msgid "do nothing, if we are at the start."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.do_cursor_movement:1
+# b68a77ca05c74486a10925b3009ddb66
+msgid "Move the cursor relative to it's current position. Action can be one of :"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.do_cursor_movement:4
+# aac5d8f3c04f4506b8e2d7f49c9d151e
+msgid "cursor_left: move the cursor to the left"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.do_cursor_movement:5
+# 2b52c8aa60504ed299d553648fb97988
+msgid "cursor_right: move the cursor to the right"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.do_cursor_movement:6
+# cd5da42b31104f51a34f073e833eda4b
+msgid "cursor_up: move the cursor on the previous line"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.do_cursor_movement:7
+# 43f30bbb6b864b1c82c4180857edf354
+msgid "cursor_down: move the cursor on the next line"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.do_cursor_movement:8
+# 09dfa37608fa47499658b36519a29df9
+msgid "cursor_home: move the cursor at the start of the current line"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.do_cursor_movement:9
+# 9b0852994cbd449faec27336ece6d4de
+msgid "cursor_end: move the cursor at the end of current line"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.do_cursor_movement:10
+# 561ea3dc447d414c8cf8bc3371871f1d
+msgid "cursor_pgup: move one \"page\" before"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.do_cursor_movement:11
+# e88e7b2b408b4ccb87dabbba26097394
+msgid "cursor_pgdown: move one \"page\" after"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.do_cursor_movement:15
+# 8f9364968180432791e8c40a90c6b2d9
+msgid "Current page are 3 lines before/after"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.focus:1
+# b0403f9cf14945efa26a81d0f6950dea
+msgid "If focus is true, the keyboard will be requested, and you can start to write on the textinput."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.focus:4
+# 9d704d4b00494c179a2fb81b26b2fce6
+msgid ":data:`focus` is a :class:`~kivy.properties.BooleanProperty`, default to False"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.font_name:1
+# 6f6a596b58314cb986f73b80352c8ded
+msgid "Filename of the font to use, the path can be absolute or relative. Relative paths are resolved by the :func:`~kivy.resources.resource_find` function."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.font_name:7
+# a3b829710b7c476e869c9da710d344d5
+msgid "Depending of your text provider, the font file can be ignored. But you can mostly use this without trouble."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.font_name:10
+# 094a6731054344a19294f7f12d0e7461
+msgid ":data:`font_name` is a :class:`~kivy.properties.StringProperty`, default to 'fonts/DroidSans.ttf'."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.font_size:1
+# 686879d55ccd49e38cc5ff4afd622615
+msgid "Font size of the text, in pixels."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.font_size:3
+# aee4479112b3478d825d15457d3a813f
+msgid ":data:`font_size` is a :class:`~kivy.properties.NumericProperty`, default to 10."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.get_cursor_from_index:1
+# 594a6fbda7494a6c90c15477be2c100a
+msgid "Return the (row, col) of the cursor from text index"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.get_cursor_from_xy:1
+# 2f063dffb53f4bb09f3822bc33e8c3bf
+msgid "Return the (row, col) of the cursor from an (x, y) position."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.insert_text:1
+# 9082e18ef7414139834c448b311edb4c
+msgid "Insert new text on the current cursor position"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.line_height:1
+# f1d8a1577e8b48cdaeab97d524e58a75
+msgid "Height of a line. This property is automatically computed from the :data:`font_name`, :data:`font_size`. Changing the line_height will have no impact."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.line_height:5
+# 27efd904288b4becb3f467bd24665eee
+msgid ":data:`line_height` is a :class:`~kivy.properties.NumericProperty`, read-only."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.multiline:1
+# 8e38a03db4ad4514b925c16df6330df2
+msgid "If True, the widget will be able show multiple lines of text. If false, \"enter\" action will defocus the textinput instead of adding a new line."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.multiline:4
+# 90907a22ed0445cc89b4f1630754addb
+msgid ":data:`multiline` is a :class:`~kivy.properties.BooleanProperty`, default to True"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.padding:1
+# 94fafc89d0244e0aa797f03d0d7b7c89
+msgid "Padding of the text, in the format (padding_x, padding_y)"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.padding:3
+# e0b3ae16b807499aa2119455eea0debd
+msgid ":data:`padding` is a :class:`~kivy.properties.ReferenceListProperty` of (:data:`padding_x`, :data:`padding_y`) properties."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.padding_x:1
+# 895b6d27e399465f978daadacf0e99e1
+msgid "Horizontal padding of the text, inside the widget box."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.padding_x:3
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.padding_y:3
+# fcd7e73ccb4346e18c52dfcb829e18f5
+# 06565c5d31c0401b849754997487b32d
+msgid ":data:`padding_x` is a :class:`~kivy.properties.NumericProperty`, default to 0. This might be changed by the current theme."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.padding_y:1
+# de33f079d1fd40ffbc36b9c267010af8
+msgid "Vertical padding of the text, inside the widget box."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.scroll_x:1
+# 50ca11e0a2bd4d74b2f3de970261a16e
+msgid "X scrolling value of the viewport. The scrolling is automatically updated when the cursor is moving or text is changing. If you are not doing any action, you can still change the scroll_x and scroll_y properties."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.scroll_x:5
+# 1a0095e6ec8543509fa92ae47f185dba
+msgid ":data:`scroll_x` is a :class:`~kivy.properties.NumericProperty`, default to 0."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.scroll_y:1
+# 745892aaa3ae4b6296814d8a23aa9933
+msgid "Y scrolling value of the viewport. See :data:`scroll_x` for more information."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.scroll_y:4
+# a5f6479e0f684b2fb3fad7d0832e0e5d
+msgid ":data:`scroll_y` is a :class:`~kivy.properties.NumericProperty`, default to 0."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.selection_color:1
+# 34b79598359741ae9f47e459ad79240a
+msgid "Current color of the selection, in (r, g, b, a) format."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.selection_color:5
+# 30b70ce2d98d404fbc491e22a01d5bf1
+msgid "The color should always have \"alpha\" component different from 1, since the selection is drawed after the text."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.selection_color:8
+# 68538d787f084d5ba4feb0a1c1a6c325
+msgid ":data:`selection_color` is a :class:`~kivy.properties.ListProperty`, default to [0.1843, 0.6549, 0.8313, .5]"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.selection_from:1
+# 1e1a09c54dbc44fab48c32527b972076
+msgid "If a selection is happening, or finished, this property will represent the cursor index where the selection start."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.selection_from:4
+# 66187167115443ae8c0dd90f0b3c9438
+msgid ":data:`selection_from` is a :class:`~kivy.properties.NumericProperty`, default to None"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.selection_text:1
+# 9e3b96178c4f429fa1cf34a604656fe7
+msgid "Current content selection."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.selection_text:3
+# 6c30f7d2e3854ec6b0dcbbf201dc511b
+msgid ":data:`selection_text` is a :class:`~kivy.properties.StringProperty`, default to ''"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.selection_to:1
+# 918329e0823a4772aaeca4b158ce3386
+msgid "If a selection is happening, or finished, this property will represent the cursor index where the selection end."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.selection_to:4
+# 68e23d86417d4004a5fbfe506c32821c
+msgid ":data:`selection_to` is a :class:`~kivy.properties.NumericProperty`, default to None"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.tab_width:1
+# 9c643017f62449b69ea0fa2a6e2aab6b
+msgid "By default, each tab will be replaced by the size of 4 spaces on the text input widget. You can set a lower or higher value."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.tab_width:4
+# a34167fedf324fa0a48ff048351d1aca
+msgid ":data:`tab_width` is a :class:`~kivy.properties.NumericProperty`, default to 4."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.text:1
+# 0a52a46d53b44811a1d7ca9695615568
+msgid "Text of the widget."
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.text:3
+# 0d218262f93a42689082ee786a54f801
+msgid "Creation of a simple hello world ::"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.text:7
+# ba3c9ff108ef4ddea1feb7085909eb3d
+msgid "If you want to create the widget with an unicode string, use ::"
+msgstr ""
+
+#: ../../../kivy/uix/textinput.py:docstring of kivy.uix.textinput.TextInput.text:11
+# a9c123d236e94ef59172824c88a38262
+msgid ":data:`text` a :class:`~kivy.properties.StringProperty`."
+msgstr ""
+

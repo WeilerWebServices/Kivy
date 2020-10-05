@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.9-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-24 12:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../sources/api-kivy.uix.stencilview.rst:3
+# 56fde819d3b240e2a0c8f217dc842e97
+msgid "Stencil View"
+msgstr ""
+
+#: ../../../kivy/uix/stencilview.py:docstring of kivy.uix.stencilview:4
+# 74994116775d482abfd279c0ae170032
+msgid ":class:`StencilView` limits the drawing of child widgets to the StencilView's  bounding box. Any drawing outside the bounding box will be clipped (trashed)."
+msgstr ""
+
+#: ../../../kivy/uix/stencilview.py:docstring of kivy.uix.stencilview:7
+# 524a34a41d6b4a4e9cdcbe89986f1b29
+msgid "The StencilView uses the stencil graphics instructions under the hood. It provides an efficient way to clip the drawing area of children."
+msgstr ""
+
+#: ../../../kivy/uix/stencilview.py:docstring of kivy.uix.stencilview:12
+# 022ef84ab1654e9ab0566565a9db5b6a
+msgid "As with the stencil graphics instructions, you cannot stack more than 8 stencil-aware widgets."
+msgstr ""
+
+#: ../../<autodoc>:1
+# b734f8365bf542409699d02457b7e360
+msgid "Bases: :class:`kivy.uix.widget.Widget`"
+msgstr ""
+
+#: ../../../kivy/uix/stencilview.py:docstring of kivy.uix.stencilview.StencilView:1
+# b4f82e09abd340babf4feaa6995bcbf0
+msgid "StencilView class. See module documentation for more information."
+msgstr ""
+

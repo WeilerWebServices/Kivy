@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.9-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-24 12:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../sources/api-kivy.graphics.rst:3
+# 3bc15dfe0dc84b27a3fb89b12b063c6c
+msgid "Graphics"
+msgstr ""
+
+#: ../../../kivy/graphics/__init__.py:docstring of kivy.graphics:2
+# 03d67d86073a4988a518e96b0a53fef3
+msgid "This package assemble all low level function to draw object. The whole graphics package is compatible OpenGL ES 2.0, and have a lot of rendering optimizations."
+msgstr ""
+
+#: ../../../kivy/graphics/__init__.py:docstring of kivy.graphics:6
+# c3e2b586639b4552a1db7ef7f1b75e8c
+msgid "The basics"
+msgstr ""
+
+#: ../../../kivy/graphics/__init__.py:docstring of kivy.graphics:8
+# 134691658b9b4ed1a25c882bfc494e94
+msgid "For drawing on a screen, you will need :"
+msgstr ""
+
+#: ../../../kivy/graphics/__init__.py:docstring of kivy.graphics:10
+# a8a8f8343f80452d8fc0dab477ca380e
+msgid "a :class:`~kivy.graphics.instructions.Canvas` object."
+msgstr ""
+
+#: ../../../kivy/graphics/__init__.py:docstring of kivy.graphics:11
+# 09599bfb46534c5f80132a6be30e789d
+msgid ":class:`~kivy.graphics.instructions.Instruction` objects."
+msgstr ""
+
+#: ../../../kivy/graphics/__init__.py:docstring of kivy.graphics:13
+# 2bbf3361e050472ba12910e005a93157
+msgid "Each widget in Kivy already have by default their :class:`Canvas`. When you are creating a widget, you can create all the instructions needed for drawing. If `self` is your current widget, you can do::"
+msgstr ""
+
+#: ../../../kivy/graphics/__init__.py:docstring of kivy.graphics:25
+# aee99bf07e664b27a02137137a594533
+msgid "The instructions :class:`Color` and :class:`Rectangle` are automaticly added to the canvas object, and will be used when the window drawing will happen."
+msgstr ""
+

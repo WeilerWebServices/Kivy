@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 16:54\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# fb0a3601d014483086f975b05b051c99
+#: ../../sources/api-kivy.uix.togglebutton.rst:3
+msgid "Toggle button"
+msgstr ""
+
+# b5acfe5248f040a181f01dfb566f4533
+#: ../../../kivy/uix/togglebutton.py:docstring of kivy.uix.togglebutton:2
+msgid "The :class:`ToggleButton` widget acts like a checkbox. When you touch/click it, the state toggles between 'normal' and 'down' (opposed to a :class:`Button`  that is only 'down' as long as it is pressed)."
+msgstr ""
+
+# 9f3282c6be624f24ae6a0123d025f3ef
+#: ../../../kivy/uix/togglebutton.py:docstring of kivy.uix.togglebutton:6
+msgid "Toggle buttons can also be grouped to make radio buttons - only one button in  a group can be in 'down' state. The group name can be a string or any other hashable Python object ::"
+msgstr ""
+
+# ea5cc324b64d4930a334f0712372b0f0
+#: ../../../kivy/uix/togglebutton.py:docstring of kivy.uix.togglebutton:14
+msgid "Only one of the buttons can be 'down'/checked at the same time."
+msgstr ""
+
+# e7b3c38fb7124b9ebfec5518b890acb8
+#: ../../../kivy/uix/togglebutton.py:docstring of kivy.uix.togglebutton:16
+msgid "To configure the ToggleButton, you can use the same properties that you can use for a Button class."
+msgstr ""
+
+# c4e121e789ff4b19bb2ecfdf946762dc
+#: ../../<autodoc>:1
+msgid "Bases: :class:`kivy.uix.button.Button`"
+msgstr ""
+
+# ad7d4fa23237442db56b603c39f1dcdf
+#: ../../../kivy/uix/togglebutton.py:docstring of kivy.uix.togglebutton.ToggleButton:1
+msgid "Toggle button class, see module documentation for more information."
+msgstr ""
+
+# adc8bf79714049efb1d6f08dc77e0f52
+#: ../../../kivy/uix/togglebutton.py:docstring of kivy.uix.togglebutton.ToggleButton.group:1
+msgid "Group of the button. If None, no group will be used (button is independent). If specified, :data:`group` must be a hashable object, like a string. Only one button in a group can be in 'down' state."
+msgstr ""
+
+# aa5ac222811c464fb4a357d222d32ad8
+#: ../../../kivy/uix/togglebutton.py:docstring of kivy.uix.togglebutton.ToggleButton.group:5
+msgid ":data:`group` is a :class:`~kivy.properties.ObjectProperty`"
+msgstr ""

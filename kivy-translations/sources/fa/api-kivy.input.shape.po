@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 16:54\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# e27c49607d7747b9a5f21aee9b146856
+#: ../../sources/api-kivy.input.shape.rst:3
+msgid "Motion Event Shape"
+msgstr ""
+
+# 310cde84aa8b43db9ec8d7fea1773e6d
+#: ../../../kivy/input/shape.py:docstring of kivy.input.shape:2
+msgid "Represent the shape of the :class:`~kivy.input.motionevent.MotionEvent`"
+msgstr ""
+
+# c1b895a0dc044caba6267acd14696164
+#: ../../<autodoc>:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+# 3960453b3a684bb2936977d4d695d12d
+#: ../../../kivy/input/shape.py:docstring of kivy.input.shape.Shape:1
+msgid "Abstract class for all implementation of a shape"
+msgstr ""
+
+# 9f1ae119fea14de795cd763f47c73e94
+#: ../../<autodoc>:1
+msgid "Bases: :class:`kivy.input.shape.Shape`"
+msgstr ""
+
+# 4444e5eb3c00464bbbf96241776b1bdd
+#: ../../../kivy/input/shape.py:docstring of kivy.input.shape.ShapeRect:1
+msgid "Represent a rectangle shape."
+msgstr ""
+
+# 4c0e62c258e841c495aa99043b08bb52
+#: ../../../kivy/input/shape.py:docstring of kivy.input.shape.ShapeRect.height:1
+msgid "Height of the rect"
+msgstr ""
+
+# 90483e55043d45b7b5ca22d42de02ee8
+#: ../../../kivy/input/shape.py:docstring of kivy.input.shape.ShapeRect.width:1
+msgid "Width fo the rect"
+msgstr ""

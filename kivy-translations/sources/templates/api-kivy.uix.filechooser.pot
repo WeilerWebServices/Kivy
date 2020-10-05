@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.9-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-24 12:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../sources/api-kivy.uix.filechooser.rst:3
+# 16620ab5e40e4657a895b0fd34ddccba
+msgid "FileChooser"
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser:6
+# 46d82ba2da8f425f9c76de013540fb0c
+msgid "This is experimental and subject to change as long as this warning notice is present."
+msgstr ""
+
+#: ../../<autodoc>:1
+# 2463b4dc6e8649a68a5752c68cd7e27a
+msgid "Bases: :class:`kivy.uix.floatlayout.FloatLayout`"
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserController:1
+# 95004770c6424a0d97e5d9cca499b49e
+msgid "Base for implementing a FileChooser. Don't use that class directly, prefer to use one implementation like :class:`FileChooserListView` or :class:`FileChooserIconView`."
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserController.files:1
+# 8cf20231a67a49a58e6a04daf727aabc
+msgid "Read-only :class:`~kivy.properties.ListProperty`. The list of files in the directory specified by path after applying the filters."
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserController.filter_dirs:1
+# 127dc9dbdcfc4ddeb165e876003e6246
+msgid ":class:`~kivy.properties.BooleanProperty`, defaults to False. Indicate whether filters should also apply to directories."
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserController.filters:1
+# 52386702d1124538b5833cbff5517ef4
+msgid ":class:`~kivy.properties.ListProperty`, defaults to [], equal to '\\*'. The filters to be applied to the files in the directory, e.g. ['*.png']. The filters are not reset when the path changes, you need to do that yourself if you want that. You can use the following patterns:"
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserController.filters:7
+# 64b2517139954a6781ef95001e4ea8a0
+msgid "Pattern"
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserController.filters:7
+# f0cefece76a947c5b68f8a91d14121ad
+msgid "Meaning"
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserController.filters:9
+# dee28882571b4111adf4dde518abecf3
+msgid "\\*"
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserController.filters:9
+# 96bff7d0f6324cff9ec8abef9cbf1d93
+msgid "matches everything"
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserController.filters:10
+# 4e695272976b40c8950d1cf90a744bad
+msgid "?"
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserController.filters:10
+# 091066f1fffa4b21894facffd3746dda
+msgid "matches any single character"
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserController.filters:11
+# 2f8e2df372f045309c1d47002b2d3bdd
+msgid "[seq]"
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserController.filters:11
+# 3094eed38d964310b45fc64ad1c4457d
+msgid "matches any character in seq"
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserController.filters:12
+# a4c5939b4c3d4312a614a5b3d92eedd9
+msgid "[!seq]"
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserController.filters:12
+# 02a343f03371401e9d9a6a52105900ef
+msgid "matches any character not in seq"
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserController.get_nice_size:1
+# ec3d6fb0b2bf4ea0bb887172d3c57c2c
+msgid "Pass the filepath. Returns the size in the best human readable format or '' if it's a directory (Don't recursively calculate size.)."
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserController.multiselect:1
+# a937c5cf61dc40dd9e51cac72befe2c2
+msgid ":class:`~kivy.properties.BooleanProperty`, defaults to False. Determines whether user is able to select multiple files."
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserController.path:1
+# 414fa5f972ed414fa8919a15778d87a3
+msgid ":class:`~kivy.properties.StringProperty`, defaults to current working directory as unicode string. Specifies the path on the filesystem that this controller should look at."
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserController.selection:1
+# 2aa4ede63fa948a384d30f6cb1cfa23f
+msgid "Read-only :class:`~kivy.properties.ListProperty`. The list of files that are currently selected."
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserController.show_hidden:1
+# 73fa66247ac94b9ea61d2be6788b95fe
+msgid ":class:`~kivy.properties.BooleanProperty`, defaults to False. Determines whether hidden files and folders should be shown."
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserController.sort_func:1
+# a0b055bfe45d441b8de68b4447c142ab
+msgid ":class:`~kivy.properties.ObjectProperty`. Provide a function to be called with a list of filenames as only argument. Return a list of filenames in such a manner that the new list is sorted and represents in which order files are supposed to be displayed in the view."
+msgstr ""
+
+#: ../../<autodoc>:1
+#: ../../<autodoc>:1
+# 241bf2aa121c49ff8659325162e41083
+# 54858eee06fd4ead8defe327f8a3494b
+msgid "Bases: :class:`kivy.uix.filechooser.FileChooserController`"
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserIconView:1
+# 9cc2077507994d88a02456c12a987a2e
+msgid "Implementation of :class:`FileChooserController` using an icon view"
+msgstr ""
+
+#: ../../../kivy/uix/filechooser.py:docstring of kivy.uix.filechooser.FileChooserListView:1
+# 650418efbeeb4a10a7514ae7f691c6a1
+msgid "Implementation of :class:`FileChooserController` using a list view"
+msgstr ""
+

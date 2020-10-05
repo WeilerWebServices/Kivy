@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-04 17:12\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# 10da0e9bd0354463b220d85dc1fadbf0
+#: ../../sources/api-kivy.input.provider.rst:3
+msgid "Motion Event Provider"
+msgstr ""
+
+# 8e03db10215741318d8e5255bede95da
+#: ../../../kivy/input/provider.py:docstring of kivy.input.provider:2
+msgid "Abstract class for a implement a :class:`~kivy.input.motionevent.MotionEvent` provider. The implementation must support the :func:`~MotionEventProvider.start`, :func:`~MotionEventProvider.stop` and :func:`~MotionEventProvider.update` methods."
+msgstr ""
+
+# b726814652cd4bc19d691acf3b9a732f
+#: ../../<autodoc>:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+# 43b365b319a34fc1af9997488c0e4015
+#: ../../../kivy/input/provider.py:docstring of kivy.input.provider.MotionEventProvider:1
+msgid "Base class for a provider."
+msgstr ""
+
+# 8f7d2ac5414a49a6b0813a5237f6cdac
+#: ../../../kivy/input/provider.py:docstring of kivy.input.provider.MotionEventProvider.start:1
+msgid "Start the provider. This method is automatically called when the application is started, and if the configuration use the current provider."
+msgstr ""
+
+# 89c44e4e98754ebf8fc01088234ee577
+#: ../../../kivy/input/provider.py:docstring of kivy.input.provider.MotionEventProvider.stop:1
+msgid "Stop the provider"
+msgstr ""
+
+# 32a10dcb52e1452087d2ec11ac8fc093
+#: ../../../kivy/input/provider.py:docstring of kivy.input.provider.MotionEventProvider.update:1
+msgid "Update the provider, and dispatch all the new touch event though the `dispatch_fn` argument."
+msgstr ""
